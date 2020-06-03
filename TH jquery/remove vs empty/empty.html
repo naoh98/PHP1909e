@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            text-align: center;
+        }
+        .row{
+            margin-top: 20px;
+        }
+        .col{
+            background: orange;
+            margin-top: 10px;
+            padding: 10px;
+        }
+        .remove{
+            border: none;
+        }
+    </style>
+</head>
+<body>
+<pre>
+    empty() chỉ xóa nội dung bên trong selector trong khi remove() xóa hẳn selector
+    *kiểm tra thông qua f12
+</pre>
+<div class="container">
+    <div class="row">
+        <div class="col">Col 1</div>
+        <div class="col">Col 2</div>
+    </div>
+</div>
+<div class="row">
+    <div class="remove">
+        <button>Empty .container Content</button>
+    </div>
+</div>
+</body>
+<script src="../jquery.js"></script>
+<script>
+    $(document).ready(function () {
+        $("button").on("click", function () {
+            $(".container").empty();
+        });
+    });
+</script>
+</html>

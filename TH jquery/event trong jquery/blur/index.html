@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        *{
+            font-size: 18px;
+        }
+        #select{
+            width: 10%;
+        }
+    </style>
+</head>
+<body>
+<pre>
+    blur() ngược lại với focus()
+</pre>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+            <form action="" method="post" name="form">
+                <div class="form-group">
+                    <label for="">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter your Email ...">
+                    <div class="alert"></div>
+                </div>
+                <div class="form-group">
+                    <label for="">Username</label>
+                    <input type="text" class="form-control" id="username" placeholder="Enter your Username ...">
+                    <div class="alert"></div>
+                </div>
+                <div class="form-group">
+                    <label for="">Password</label>
+                    <input type="password" class="form-control" id="password" placeholder="Enter your Password ...">
+                    <div class="alert"></div>
+                </div>
+                <div class="form-group">
+                    <label for="">Gender</label>
+                    <div class="form-group">
+                        <label for="">Male</label>
+                        <input type="radio" value="male" name="gioitinh" >
+                        <label for="">Female</label>
+                        <input type="radio" value="female" name="gioitinh">
+                    </div>
+                    <div class="alert"></div>
+                </div>
+                <div class="form-group">
+                    <label for="">Address</label>
+                    <div class="form-group">
+                        <select id="select">
+                            <option value="Ha Noi">Ha Noi</option>
+                            <option value="Da Nang">Da Nang</option>
+                            <option value="TP HCM">TP HCM</option>
+                        </select>
+                    </div>
+                    <div class="alert"></div>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+<script src="../../jquery.js"></script>
+<script>
+    $(document).ready(function () {
+        $("#email").on("focus", function () {
+            $(this).css("border", "2px solid blue");
+            $("#email").next().html("Bạn vừa focus vào email.");
+        });
+        $("#email").on("blur", function () {
+            $(this).css("border", "1px solid lightgrey");
+            $("#email").next().html("");
+        });
+
+        $("#username").on("focus", function () {
+            $(this).css("border", "2px solid blue");
+            $("#username").next().html("Bạn vừa focus vào username.");
+        });
+        $("#username").on("blur", function () {
+            $(this).css("border", "1px solid lightgrey");
+            $("#username").next().html("");
+        });
+
+        $("#password").on("focus", function () {
+            $(this).css("border", "2px solid blue");
+            $("#password").next().html("Bạn vừa focus vào password.");
+        });
+        $("#password").on("blur", function () {
+            $(this).css("border", "1px solid lightgrey");
+            $("#password").next().html("");
+        });
+
+        $("input[type = 'radio']").on("focus", function () {
+            $(this).css("border", "2px solid blue");
+            $(this).parent().next().html("Bạn vừa focus vào gender.");
+        });
+        $("input[type = 'radio']").on("blur", function () {
+            $(this).css("border", "1px solid lightgrey");
+            $(this).parent().next().html("");
+        });
+
+        $("#select").on("focus", function () {
+            $(this).css("border", "2px solid blue");
+            $("#select").parent().next().html("Bạn vừa focus vào address.");
+        });
+        $("#select").on("blur", function () {
+            $(this).css("border", "1px solid lightgrey");
+            $("#select").parent().next().html("");
+        });
+
+    });
+</script>
+</html>

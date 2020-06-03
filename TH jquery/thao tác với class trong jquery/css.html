@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            text-align: center;
+        }
+        .row{
+            margin-top: 20px;
+        }
+        .col{
+            background: orange;
+            margin-top: 10px;
+            padding: 10px;
+        }
+        .remove{
+            border: none;
+        }
+    </style>
+</head>
+<body>
+<pre>
+    chỉnh sửa css với jquery
+</pre>
+<div class="container">
+    <div class="row">
+        <div class="col">Col 1</div>
+        <div class="col">Col 2</div>
+    </div>
+</div>
+<div class="row">
+    <div class="remove">
+        <button id="nut1">Change a single CSS</button>
+        <button id="nut2">Change multi CSS</button>
+        <button id="nut3">Lấy giá trị css</button>
+    </div>
+</div>
+</body>
+<script src="../jquery.js"></script>
+<script>
+    $(document).ready(function () {
+        $("#nut1").on("click", function () {
+            $(".col").css("background", "lightskyblue");
+        });
+
+        $("#nut2").on("click", function () {
+            $(".col").css({
+                "background": "cornsilk",
+                "color": "red",
+                "font-weight": "bold",
+                "font-size": "20px"
+            });
+        });
+
+        $("#nut3").on("click", function () {
+            var color = $(".col").css("background-color");
+            alert("Background color là màu: " +color);
+        });
+    });
+</script>
+</html>

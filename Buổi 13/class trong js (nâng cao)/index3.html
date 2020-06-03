@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <pre>
+
+    </pre>
+    <div id="info"></div>
+    <div id="tongdiem"></div>
+    <div id="xeploai"></div>
+</body>
+<script>
+    class Sinhvien {
+        constructor(ten,tuoi,que,toan,ly,hoa){
+            this.ten = ten;
+            this.tuoi = tuoi;
+            this.que = que;
+            this.toan = toan;
+            this.ly = ly;
+            this.hoa = hoa;
+        }
+
+        info(){
+        return 'Họ tên: ' + this.ten + 'Quê Quán: ' + this.que + 'Tuổi: ' + this.tuoi
+            + 'Điểm toán: ' + this.toan + 'Điểm Lý: ' + this.ly + 'Điểm hóa: ' + this.hoa;
+        }
+
+        tinhdiem(){
+            this.tongket = (this.toan + this.ly + this.hoa)/3;
+        }
+
+        xeploai(){
+            if(this.tongket > 5){
+                this.xeploai = 'Qua Môn';
+            }
+            else{
+                this.xeploai = 'Tạch';
+            }
+        }
+    }
+
+    var sinhvien = new Sinhvien('Nguyễn Phương Hoàn',21,'Nam Định',8,9,10);
+    document.getElementById('info').innerText = sinhvien.info();
+    sinhvien.tinhdiem();
+    sinhvien.xeploai();
+    document.getElementById('tongdiem').innerText = 'Điểm trung bình: ' +sinhvien.tongket;
+    document.getElementById('xeploai').innerText = 'Xếp loại: ' +sinhvien.xeploai;
+</script>
+</html>

@@ -1,0 +1,85 @@
+*{padding: 0px; margin: 0px; font-size: 26px; text-align: center;}
+ul li{list-style: none;}
+a{text-decoration: none;}
+body{background: cornsilk;}
+.clearfix::after{
+    clear: both;
+    content: '';
+    display: table;
+}
+#container {
+    width: 1200px;
+    margin: 0px auto;
+    border: 1px solid black;
+}
+.menu{
+    width: 100%;
+    background: #000;
+}
+.menu ul li{
+    position: relative;
+}
+.menu>ul>li{
+    float: left;
+    width: 25%;
+    padding: 15px 0px;
+}
+.menu>ul>li>a{
+    color: white;
+}
+.menu>ul>li:hover{
+    background: #626262;
+    border-radius: 10px;
+}
+.menu>ul>li:hover>a{
+    color: lightsalmon;
+}
+.submenu{
+    position: absolute;
+    width: 100%;
+    margin: 16px 0px;
+    display: none;
+}
+.submenu>li>a{
+    color: gold;
+}
+.submenu>li{
+    margin: 5px 0px;
+    padding: 5px 0px;
+    background: #626262;
+    border-radius: 5px;
+}
+.menu>ul>li:hover .submenu{
+    display: block;
+}
+.submenu>li:hover {
+    background: #ff363f;
+}
+.submenu>li:hover>a {
+    color: rebeccapurple;
+}
+.submenu1{
+    display: none;
+    position: absolute;
+    width: 100%;
+    left: 100%;
+    top: 0;
+}
+.submenu1>li{
+    background: #626262;
+    padding: 5px 0px;
+    margin: 0px 0px 5px;
+    border-radius: 5px;
+}
+.submenu1>li>a{
+    color: lightskyblue;
+}
+.submenu>li:hover .submenu1{
+    display: block;
+}
+.submenu1>li:hover{
+    background: gold;
+}
+.submenu1>li:hover>a{
+    color: #000;
+}

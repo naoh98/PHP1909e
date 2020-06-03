@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<style>
+</style>
+<body>
+
+<pre>
+    Sử dụng công thức tại trang https://news.zing.vn/5-cong-thuc-don-gian-do-chi-so-bmi-post669580.html
+    để tính toán ra chỉ số BMI khi nhập vào
+    và in ra thông tin phân loại
+    và nguy cơ bệnh tật
+</pre>
+
+<div class="container">
+    <div class="row">
+        <form name="bmi" action="" method="post" onsubmit="return false;">
+            <div class="form-group">
+                <label>Cân nặng ( Kg )</label>
+                <input type="text" name="weight" class="form-control" id="nang" placeholder="Cân nặng">
+            </div>
+
+            <div class="form-group">
+                <label>Chiều cao ( đơn vị mét )</label>
+                <input type="text" name="height" class="form-control" id="cao" placeholder="Chiều cao">
+            </div>
+            <button class="btn btn-primary" onclick="test()">tính MBI</button>
+        </form>
+    </div>
+
+    <div class="row">
+        <h2>Kết quả sau tính toán</h2>
+    </div>
+
+        <p id="bmi">BMI : </p>
+        <p id="pl">Phân loại : </p>
+        <p id="benh">Nguy cơ bênh tật : </p>
+</div>
+
+</body>
+<script>
+    function test(){
+            var a = document.getElementById('nang').value;
+            var b = document.getElementById('cao').value;
+            var c = parseInt(a/(b*b));
+            document.getElementById('bmi').innerText='BMI: ' +c;
+
+            if(c<18.5){
+                document.getElementById('pl').innerText = 'Phân loại: Gầy' ;
+                document.getElementById('benh').innerText = 'Nguy Cơ Bệnh Tật: Thấp ';
+            }
+            if(c<=24.9 && c>=18.5){
+                document.getElementById('pl').innerText = 'Phân loại: Bình Thường ';
+                document.getElementById('benh').innerText = 'Nguy Cơ Bệnh Tật: Trung Bình ';
+            }
+            if(c<=29.9 && c>=25){
+                document.getElementById('pl').innerText = 'Phân loại: Hơi Béo ';
+                document.getElementById('benh').innerText = 'Nguy Cơ Bệnh Tật: Cao ';
+            }
+            if(c<=34.9 && c>=30){
+                document.getElementById('pl').innerText = 'Phân loại: Béo Phì Cấp Độ 1 ';
+                document.getElementById('benh').innerText = 'Nguy Cơ Bệnh Tật: Cao ';
+            }
+            if(c<=39.9 && c>=35){
+                document.getElementById('pl').innerText = 'Phân loại: Béo Phì Cấp Độ 2 ';
+                document.getElementById('benh').innerText = 'Nguy Cơ Bệnh Tật: Rất Cao ';
+            }
+            if(c>40){
+                document.getElementById('pl').innerText = 'Phân loại: Béo Phì Cấp Độ 3 ';
+                document.getElementById('benh').innerText = 'Nguy Cơ Bệnh Tật: Nguy Hiểm ';
+
+            }
+    }
+</script>
+</html>

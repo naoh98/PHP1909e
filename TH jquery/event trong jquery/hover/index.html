@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .bar{
+            height: 100px;
+            width: 900px;
+            margin: 0px auto;
+            margin-bottom: 120px;
+            background: lightskyblue;
+            position: relative;
+            border-radius: 10px;
+        }
+        .line{
+            position: absolute;
+            top: 50%;
+            left: 0;
+            transform: translate(0,-50%);
+            width: inherit;
+            height: 2px;
+            background: #332c54;
+        }
+        .wrap{
+            height: 8px;
+            width: 105px;
+            border: 1px solid black;
+            background: cornflowerblue;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            border-radius: 10px;
+            z-index: 1000;
+        }
+        .content{
+            text-align: center;
+            padding: 80px 30px;
+            background: darkslateblue;
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translate(-50%,0);
+            display: none;
+            border-radius: 10px;
+            color: gold;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <pre>
+        hover() là sự kiện kết hợp của mouse enter và mouse leave
+        (khi di chuột vào và rời chuột ra)
+        **hover() không thể dùng với .on("hover", ....)
+       <h2> VD: di chuột vào thanh màu xanh sau</h2>
+    </pre>
+    <div class="bar">
+        <div class="line"></div>
+        <div class="wrap">
+            <div class="content">Hello World !</div>
+        </div>
+    </div>
+
+    <div class="bar">
+        <div class="line"></div>
+        <div class="wrap">
+            <div class="content">Hello World !</div>
+        </div>
+    </div>
+
+    <div class="bar">
+        <div class="line"></div>
+        <div class="wrap">
+            <div class="content">Hello World !</div>
+        </div>
+    </div>
+</body>
+<script src="../../jquery.js"></script>
+<script>
+    $(document).ready(function () {
+        $(".bar").hover(function () {
+            $(this).find(".content").slideDown(1000);
+        },function () {
+           $(this).find(".content").slideUp(1000);
+        });
+    });
+</script>
+</html>

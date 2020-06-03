@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        #para{
+            color: saddlebrown;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+<pre>
+     resize() là khi thay đổi kích thước trình duyệt
+</pre>
+<div class="container">
+    <h1>Hello World !</h1>
+    <p id="para"></p>
+</div>
+</body>
+<script src="../../jquery.js"></script>
+<script>
+    function sizewindow(){
+        //lấy ra độ rộng màn hình trình duyệt
+        var w = $(window).width();
+        //lấy ra độ dài màn hình trình duyệt
+        var h =  $(window).height();
+
+        $("#para").html("Độ rộng màn hình là: " +w+ " , Độ dài màn hình là: " +h);
+    }
+
+    $(document).ready(function () {
+        sizewindow();
+        $(window).on("resize", function () {
+        sizewindow();
+        });
+    });
+</script>
+</html>

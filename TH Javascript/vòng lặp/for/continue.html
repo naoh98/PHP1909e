@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <pre>
+        Continue sẽ bỏ qua giá trị của đk đang xét và tiếp tục vòng lặp
+        VD: in các số từ 1 đến 100 if(i==50)-->continue nghĩa là bỏ qua giá trị 50 và tiếp tục vòng lặp
+    </pre>
+    <div id="demo"> Click nút bên dưới để in ra các số từ 1 đến 100</div>
+    <button onclick="vonglap();">Click Me</button>
+</body>
+<script>
+    function vonglap() {
+        var split = "";
+        for(var i=1; i<=100; i++){
+            if(i==50){
+                continue;
+            }
+            split += i+ "  ";
+        }
+        document.getElementById("demo").innerText = split;
+    }
+</script>
+</html>

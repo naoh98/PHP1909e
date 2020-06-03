@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <pre>
+
+    </pre>
+    <div id="demo"></div>
+    <div id="tet"></div>
+    <div id="gettimenow"></div>
+    <div id="gettimetet"></div>
+</body>
+<script>
+    //
+    var d = new Date();
+    document.getElementById('demo').innerText = d;
+
+    //
+    var tet = new Date(2020,0,1,0,0,0,0);
+    document.getElementById('tet').innerText = tet;
+
+    //
+    document.getElementById('gettimenow').innerText = 'Time hiện tại: ' +d.getTime();
+    document.getElementById('gettimetet').innerText = 'Time tết 2020: ' +tet.getTime();
+</script>
+</html>

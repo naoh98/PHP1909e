@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{
+            height: 1900px;
+        }
+    </style>
+</head>
+<body>
+<pre>
+    scroll() là khi người dùng lăn trỏ chuột (cuộn trình duyệt lên xuống)
+</pre>
+</body>
+<script src="../../jquery.js"></script>
+<script>
+    $(document).ready(function () {
+        $(window).on("scroll", function () {
+           $("body").append("<p>Thẻ p append</p>");
+        });
+    });
+</script>
+</html>

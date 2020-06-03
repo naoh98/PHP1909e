@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            font-size: 18px;
+        }
+        div{
+            margin: 20px 0px;
+            text-align: center;
+        }
+        img{
+            width: 500px;
+            height: 300px;
+        }
+    </style>
+</head>
+<body>
+    <pre>
+    attr() dùng để lấy thuộc tihns của selector attr("thuộc tính")
+    và cũng dùng để set thuộc tính cho selector attr("thuộc tính", "giá trị")
+    VD: lấy thuộc tính href của nút Google và set href đó cho nút Copy Cat
+    ban đầu bấm nút Copy Cat ko dẫn tới đâu nhưng 1 khi đc set thuộc tính href thì sẽ dẫn tới google như nút Google
+    </pre>
+    <div>
+        <img src="img/anh1.jpg" alt="" id="demo" title="Jax">
+    </div>
+
+    <div>
+        <button>Copy Attribute</button>
+    </div>
+
+    <div>
+        <img src="" alt="ảnh copy" id="target" title="Jax attr( )">
+    </div>
+</body>
+<script src="../jquery.js"></script>
+<script>
+    $(document).ready(function () {
+        $("button").on("click", function () {
+           var tt = $("#demo").attr("src");
+            $("#target").attr("src", tt);
+        });
+    });
+</script>
+</html>

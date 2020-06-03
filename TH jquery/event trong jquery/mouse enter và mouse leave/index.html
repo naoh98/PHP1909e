@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../../jquery.js"></script>
+    <style>
+        div{
+            height: 200px;
+            width: 200px;
+            background: orange;
+            margin: 0px auto;
+            text-align: center;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <pre>
+        mouseenter() - khi di chuột vào đối tượng
+        mouseleave() - khi di chuột ra khỏi đối tượng
+        * this ở đây nghĩa là chỉ xét đến thẻ div đang di chuột vào. Nếu ko có this
+        thì js sẽ hiểu là di chuột vào tất cả các thẻ div
+    </pre>
+    <div>Thẻ div 1</div>
+    <div>Thẻ div 2</div>
+    <div>Thẻ div 3</div>
+</body>
+<script>
+    $(document).ready(function () {
+        $("div").on("mouseenter", function () {
+           $(this).css({
+               "background": "black",
+               "color": "gold",
+               "transform": "scale(1.4)",
+               "transition": "all 1s ease"
+           });
+        });
+        $("div").on("mouseleave", function () {
+            $(this).css({
+                "transform": "scale(1)",
+                "transition": "all 1s ease",
+                "background": "orange",
+                "color": "black"
+            });
+        });
+    });
+</script>
+</html>

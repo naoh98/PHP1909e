@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .container{
+            background: orange;
+            margin: 10px;
+            padding: 10px;
+            border: 2px solid black;
+        }
+        .container, .row{
+            text-align: center;
+        }
+        #nut{
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col">Col 1</div>
+            <div class="col">Col 2</div>
+        </div>
+    </div>
+    <div class="row">
+        <button id="nut">Đặt kích cỡ</button>
+    </div>
+</body>
+<script src="../jquery.js"></script>
+<script>
+    $(document).ready(function () {
+        $("#nut").on("click", function () {
+            /* $(".container").width(500);
+            $(".container").height(80); */
+            $(".container").width("50%");
+            $(".container").height("100%");
+        });
+    });
+</script>
+</html>

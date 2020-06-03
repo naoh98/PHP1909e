@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <pre>
+        1. Tạo ra 1 controller "AbcController" trực tiếp theo đường dẫn app/Http/Controllers
+        => php artisan make:controller AbcController
+        2. Tạo ra 1 controller "PostController" nằm trong 1 folder mẹ "Backend" bên trong đường dẫn app/Http/Controllers
+        => php artisan make:controller Backend/PostController
+        3. Tạo 1 controller "PostController" trong folder "Frontend" trong app/Http/Controllers
+        => php artisan make:controller Frontend/PostController
+        4. Tạo model trực tiếp trong folder app
+        => php artisan make:model AbcModel
+        5. Tạo model trong folder của folder app
+        => php artisan make:model Models/Backend/PostModel
+        => php artisan make:model Models/Frontend/PostModel
+    </pre>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<pre>
+        Toán tử và : && ( thỏa mãn mọi điều kiện )
+        Toán tử hoặc : || ( chỉ cần thỏa mãn 1 trong các điều kiện )
+    </pre>
+
+<script type="text/javascript">
+    // tính tổng điểm > 15 của 3 môn > 15
+    // và không có môn nào bị điểm liệt < 1
+    // thì sẽ đỗ ngược lại sẽ trượt
+    var toan = 9;
+    var ly = 7;
+    var hoa = 0.5;
+    var diem = toan + ly + hoa;
+    if ( (diem > 15)) {
+        if ( (toan < 1) || (ly < 1) || (hoa < 1)) {
+            console.log("trượt");
+        } else {
+            console.log("đỗ");
+        }
+    } else {
+        console.log("trượt");
+    }
+</script>
+</body>
+</html>

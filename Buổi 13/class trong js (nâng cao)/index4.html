@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <pre>
+        Static method ( phương thức tĩnh )
+        phương thức tĩnh là những phương thức có thể gọi mà không cần
+        khởi tạo đối tượng
+        - chú ý khi khởi tạo đối tượng bạn sẽ không thể gọi các
+        method static trong class của đối tượng đó
+        đặt từ khóa static trước tên method mà bạn muốn tạo
+    </pre>
+    <div id="demo"></div>
+</body>
+<script>
+    class Car{
+        constructor(brand,price,model,speed){
+            this.brand = brand;
+            this.price = price;
+            this.model = model;
+            this.speed = speed;
+        }
+
+        info(){
+            return 'Xe ô tô: ' + this.brand;
+        }
+
+        static speed(speed){
+            Car.speed = speed;
+            return 'Tốc độ của xe là: ' + Car.speed;
+        }
+    }
+    var car = new Car('Toyota',10 + 'million $','V1',100 + 'km/h');
+    document.getElementById('demo').innerText = Car.speed('100 km/h') + car.info();
+</script>
+</html>

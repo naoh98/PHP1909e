@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <pre>
+        slice() dùng để cắt 1 phần của mảng ra thành 1 mảng mới
+        slice(number1, number2)
+        - number1 là vị trí bắt đầu cắt
+        - number2 là vị trí kết thúc
+        *lưu ý kết quả chỉ lấy vị trí trước vị trí number2 do tại number2 thì việc cắt kết thúc
+    </pre>
+</body>
+<script>
+    var color = ["xanh", "đỏ", "tím", "vàng", "đen", "trắng"];
+    var cut = color.slice(0,3);
+    console.log(color);
+    console.log(cut);
+</script>
+</html>

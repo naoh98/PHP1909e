@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <pre>
+        concat() dùng để gộp mảng
+        concat() ko làm mất mảng cũ mà luôn tạo ra 1 mảng mới
+    </pre>
+</body>
+<script>
+    var book = ["hansel & gretel", "grim", "swamp thing"];
+    var color = ["red", "yellow", "blue"];
+    var number = [1,2,3,4,5,6];
+    var array = book.concat(color);
+    console.log(array);
+
+    var array2 = book.concat(color,number);
+    console.log(array2);
+</script>
+</html>

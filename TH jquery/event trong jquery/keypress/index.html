@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../../jquery.js"></script>
+</head>
+<body>
+<pre>
+    keypress() là khi người dùng nhấn phím
+</pre>
+    <div class="container">
+        <label for="">Nội Dung</label>
+        <textarea name="content" id="content" cols="30" rows="10"></textarea>
+        <p id="count"></p>
+    </div>
+</body>
+<script>
+    $(document).ready(function () {
+        $("textarea[id='content']").on("keypress", function () {
+            var value = $(this).val().length;
+            $("#count").html("bạn đã gõ: " +value+ " ký tự");
+        });
+    });
+</script>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            text-align: center;
+        }
+        .containera, .containerb{
+            background: cornflowerblue;
+            padding: 30px;
+        }
+        button{
+            margin: 20px 0px;
+        }
+    </style>
+</head>
+<body>
+    <div class="containera">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Autem corporis, cumque, dolorem iusto magnam magni maiores
+        nam nobis repellat sunt vero voluptates.
+        Corporis exercitationem labore nobis possimus, quam saepe soluta.
+    </div>
+    <button class="nut">Click để chuyển đoạn văn bản sang div mới</button>
+    <div class="containerb"></div>
+</body>
+<script src="../jquery.js"></script>
+<script>
+    $(document).ready(function () {
+        $(".nut").on("click", function () {
+           var copy = $(".containera").text();
+            $(".containera").html("");
+            $(".containerb").html(copy);
+        });
+    });
+</script>
+</html>

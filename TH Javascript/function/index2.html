@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div id="demo"></div>
+    <div id="demo1"></div>
+</body>
+
+<script>
+    function diemtb(toan, ly, hoa){
+        var diem = (toan+ly+hoa)/3;
+        return diem;
+    }
+
+    var diemtoan = 10;
+    var diemly = 9.5;
+    var diemhoa = 8.5;
+    var  ketqua = diemtb(diemtoan, diemly, diemhoa);
+    document.getElementById('demo').innerText = "Điểm TB: " +ketqua;
+
+    function xeploai() {
+        if(ketqua<5){
+            document.getElementById('demo1').innerText = "Xếp Loại: " + 'Yếu';
+        }
+        if(ketqua>=5 && ketqua<8){
+            document.getElementById('demo1').innerText = "Xếp Loại: " + "Trung Bình";
+        }
+        if(ketqua >=8 && ketqua <=10){
+            document.getElementById('demo1').innerText = "Xếp Loại: " + "Giỏi";
+        }
+    }
+
+    xeploai();
+</script>
+
+</html>

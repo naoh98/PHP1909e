@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        *{
+            text-align: center;
+        }
+        .a, .c{
+            background: blue;
+            color: white;
+        }
+        .b{
+            margin: 20px 0px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row a">
+            <div class="col col1">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Aperiam consequuntur dolore dolores doloribus eos explicabo itaque iure
+                laudantium maiores neque nihil nobis, numquam,
+                provident quibusdam quod! Error labore nesciunt numquam.</div>
+            <div class="col col2">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Amet architecto corporis eaque facere facilis id iste magnam nulla odit omnis qui
+                recusandae sequi soluta,
+                tempora tempore tenetur veniam voluptas voluptatibus?</div>
+        </div>
+        <div class="row b">
+            <div class="col">
+                <button class="nut">Click Me</button>
+            </div>
+        </div>
+        <div class="row c"></div>
+    </div>
+</body>
+<script src="../jquery.js"></script>
+<script>
+    $(document).ready(function () {
+        $(".nut").on("click", function () {
+           var copy = $(".a").html();
+           $(".c").html(copy);
+        });
+    });
+</script>
+</html>

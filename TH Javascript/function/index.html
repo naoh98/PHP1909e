@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div id="demo"></div>
+    <div id="demo1"></div>
+</body>
+<script>
+    function chuvihinhtron(r){
+        var chuvi = 2*r*3.14;
+        return chuvi;
+    }
+
+    document.getElementById('demo').innerText = "chu vi hình tròn có bán kính 7 là: " +chuvihinhtron(7);
+    
+    function chuvihinhvuong(c) {
+        var chuviv = 4*c;
+        return chuviv;
+    }
+
+    var e = 5;
+    document.getElementById('demo1').innerText = "chu vi hình vuông có cạnh 5 là: " +chuvihinhvuong(e);
+
+</script>
+</html>

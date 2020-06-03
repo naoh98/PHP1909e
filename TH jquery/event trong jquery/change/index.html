@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        *{
+            font-size: 18px;
+        }
+        #select{
+            width: 10%;
+        }
+    </style>
+</head>
+<body>
+<pre>
+    change là khi có sự thay đổi
+</pre>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <form action="" method="post" name="form">
+                    <div class="form-group">
+                        <label for="">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter your Email ...">
+                        <div class="alert"></div>
+                    </div>
+                    <div class="form-group">
+                        <label for="">Username</label>
+                        <input type="text" class="form-control" id="username" placeholder="Enter your Username ...">
+                        <div class="alert"></div>
+                    </div>
+                    <div class="form-group">
+                        <label for="">Password</label>
+                        <input type="password" class="form-control" id="password" placeholder="Enter your Password ...">
+                        <div class="alert"></div>
+                    </div>
+                    <div class="form-group">
+                        <label for="">Gender</label>
+                        <div class="form-group">
+                            <label for="">Male</label>
+                            <input type="radio" value="male" name="gioitinh" >
+                            <label for="">Female</label>
+                            <input type="radio" value="female" name="gioitinh">
+                        </div>
+                        <div class="alert"></div>
+                    </div>
+                    <div class="form-group">
+                        <label for="">Address</label>
+                        <div class="form-group">
+                            <select id="select">
+                                <option value="Ha Noi">Ha Noi</option>
+                                <option value="Da Nang">Da Nang</option>
+                                <option value="TP HCM">TP HCM</option>
+                            </select>
+                        </div>
+                        <div class="alert"></div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="../../jquery.js"></script>
+<script>
+    $(document).ready(function () {
+        $("#email").on("change", function () {
+            var email = $(this).val();
+            $("#email").next().html("Bạn vừa thay đổi email: " +email);
+        });
+
+        $("#username").on("change", function () {
+            var username = $(this).val();
+            $("#username").next().html("Bạn vừa thay đổi username: " +username);
+        });
+
+        $("#password").on("change", function () {
+            var pass = $(this).val();
+            $("#password").next().html("Bạn vừa thay đổi pass: " +pass);
+        });
+
+        $("input[type = 'radio']").on("change", function () {
+            var gender = $(this).val();
+            $(this).parent().next().html("Bạn vừa thay đổi giới tính: " +gender);
+        });
+
+        $("#select").on("change", function () {
+            var add = $(this).val();
+            $("#select").parent().next().html("Bạn vừa thay đổi địa chỉ: " +add);
+        });
+
+    });
+</script>
+</html>

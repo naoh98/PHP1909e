@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div id="demo">Click nút bên dưới để in ra từ 1 đến 100</div>
+    <button onclick="vonglap();">Click Me</button>
+</body>
+<script>
+    var i=1;
+    var split = "";
+    function vonglap(){
+        while (i<=100){
+            if(i==50){
+                break;
+            }
+            split += i + " ";
+            i++;
+        }
+        document.getElementById("demo").innerText = split;
+    }
+</script>
+</html>

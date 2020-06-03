@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .container{
+            width: 900px;
+            margin: 0px auto;
+            background: #000;
+        }
+        button{
+            padding: 40px;
+            font-weight: bold;
+            font-size: 20px;
+            text-align: center;
+            background: cornsilk;
+        }
+    </style>
+</head>
+<body>
+    <pre>
+        .on( ) event dùng để biểu diễn 1 hoặc nhiều sự kiện trong cùng 1 selector
+        **ko thể dùng .on() event với hover nên dùng mouse enter và mouse leave với on() event thay cho hover
+    </pre>
+    <div class="container">
+        <button>Click Me</button>
+    </div>
+</body>
+<script src="../../jquery.js"></script>
+<script>
+    $(document).ready(function () {
+        $("button").on({
+           mouseenter: function () {
+             $(this).css({"color": "blue", "background": "orange"});
+           },
+            mouseleave: function(){
+                $(this).css({"color": "black", "background": "cornsilk"});
+            },
+            click: function () {
+                $(".container").css("background", "lightskyblue");
+            }
+        });
+    });
+</script>
+</html>

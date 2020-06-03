@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{margin: 0px; padding: 0px;}
+        #box1{
+            width: 200px;
+            height: 200px;
+            background: green;
+        }
+        #box2{
+            width: 200px;
+            height: 200px;
+            background: yellow;
+            position: relative;
+            top: 50px;
+            left: 50px;
+        }
+        #box3{
+            width: 200px;
+            height: 200px;
+            background: green;
+        }
+        #box4{
+            width: 200px;
+            height: 200px;
+            background: yellow;
+            position: absolute;
+            left: 50px;
+            top: 50px;
+        }
+        #col{
+            display: inline-block;
+            position: relative;
+            width: 440px;
+        }
+        #container{
+            width: 900px;
+            margin: 0px auto;
+            border: 2px solid black;
+            height: 700px;
+        }
+    </style>
+</head>
+<body>
+<div id="container">
+    <div id="col">
+        <div id="box1">
+            Box 1
+        </div>
+        <div id="box2">
+            Box 2
+        </div>
+    </div>
+    <div id="col">
+        <div id="box3">
+            Box 3
+        </div>
+        <div id="box4">
+            Box 4
+        </div>
+    </div>
+    </div>
+    <pre>
+        - postion:relative nó sẽ lấy vị trí ban đầu của chính nó
+        làm gốc tọa độ để đặt vị trí
+        - postion:absolute nó sẽ lấy vị trí của trình duyệt để làm gốc tọa độ
+
+    </pre>
+</body>
+</html>

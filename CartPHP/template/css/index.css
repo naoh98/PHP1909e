@@ -1,0 +1,147 @@
+*{
+    word-break: break-word;
+    box-sizing: border-box;
+}
+a:hover{
+    text-decoration: none;
+}
+body{
+    background: cornsilk;
+}
+.container{
+    background: whitesmoke;
+}
+.web-bar{
+    padding: 15px;
+    background: #dbdbdb;
+    border-bottom: 2px solid black;
+    position: relative;
+}
+.trangtri img{
+    width: 30px;
+    height: 30px;
+}
+/*TẠO NÚT NHẤP NHÁY*/
+@keyframes glowing {
+    0% { background-color: #dbdbdb; box-shadow: 0 0 3px #dbdbdb; }
+    50% { background-color: whitesmoke; box-shadow: 0 0 10px whitesmoke; }
+    100% { background-color: #dbdbdb; box-shadow: 0 0 3px #dbdbdb; }
+}
+.cart-info>.trangtri{
+    border: 1px solid black;
+    border-radius: 8px;
+    font-size: 17px;
+    padding: 3px;
+    background: whitesmoke;
+    animation: glowing 1500ms infinite;
+}
+/*HẾT HIỆU ỨNG NHẤP NHÁY */
+.cart-info{
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translate(0,-50%);
+}
+.row{
+    margin-bottom: 15px;
+}
+h5, h6, .page{
+    text-align: center;
+}
+form[class="form-group"]{
+    background: white;
+    border: 1px dotted black;
+    border-radius: 5px;
+}
+form[class="form-group"]>img{
+    width: 80%;
+    height: 180px;
+    border-radius: 50%;
+    margin: 8px auto;
+    display: block;
+    border: 1px solid dodgerblue;
+}
+form[class="form-group"]>p{
+    height: 80px;
+    background: #ffa58e;
+    color: black;
+}
+.table{
+    display: none;
+    position: absolute;
+    background: chocolate;
+    top: 100%;
+    right: -15px;
+    width: 360%;
+    text-align: center;
+    color: white;
+}
+.table table{
+    width: 100%;
+    margin: 0px auto;
+    border-bottom: 2px dashed white;
+    font-size: 14px;
+}
+.table h5{
+    padding: 10px;
+}
+.cart-info:hover .trangtri>p{
+    color: red;
+}
+input[name="soluong"]{
+    width: 38%;
+    margin-right: 5px;
+    height: 30px;
+}
+.col-md-4{
+    position: static;
+}
+.add-item{
+    text-align: center;
+    margin-bottom: 5px;
+}
+.tongtien{
+    text-align: left;
+    padding: 10px 0px 10px 20px;
+}
+.change-page{
+    background: #dbdbdb;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 3px 22px;
+    border-radius: 10px;
+    margin-bottom: 8px;
+    border: 2px solid darkblue;
+}
+.change-page:hover{
+    background: black;
+    color: #44ffe4;
+}
+.btn_delete{
+    background: orange;
+    color: #000000;
+    padding: 5px 8px;
+    font-weight: bolder;
+}
+.id{
+    padding-left: 10px;
+}
+.btn-add{
+    height: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    width: 100px;
+}
+.tongtien{
+    color: lightgoldenrodyellow;
+    font-weight: bolder;
+    font-size: 17px;
+    font-style: italic;
+}
+.btn-warning{
+    width: 110%;
+    height: 110%;
+    font-weight: bold;
+}

@@ -1,0 +1,11 @@
+.fail{
+    width: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.dht{
+    margin-top: 20px;
+}

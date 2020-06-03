@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <pre>
+        splice() vừa dùng để thêm phần tử vào mảng, vừa dùng để xóa phần tử ra khỏi mảng
+        có thể thêm vào bất kỳ vị trí nào trong mảng
+        vị trí được xác định theo 0, 1, 2, 3, ... bắt đầu từ 0
+        có thể xóa bất kỳ vị trí nào trong mảng
+        có thể thêm cùng lúc nhiều phần tủ cũng như xóa cùng lúc nhiều phần tử
+        splice(number1,number2,a,b,...);
+        - number1 là số dùng để xác định vị trí bắt đầu (VD: 0 nghĩa là bắt đầu xóa/thêm từ vị trí 0)
+        - number2 là số phần tử bị xóa (VD: 3 nghĩa là 3 phần tử tính từ number1 sẽ bị xóa. Chỉ có tác dụng trong xóa, khi thêm mà ko xóa thì sẽ là số 0)
+        - a, b, ... là các thành phần muốn thêm vào mảng
+    </pre>
+</body>
+<script>
+    var number = ["one","two","three","four","five"];
+    var color = ["red","green","blue","yellow"];
+    var fruit = ["apple", "grape","banana","lemon"];
+    var car =["toyota", "suv", "roll-royce", "mazda", "ford"];
+
+    /* thêm nhưng không xóa */
+    //thêm vào vị trí 0 (thêm vào đầu)
+    console.log("Mảng ban đầu:");
+    console.log(number);
+    console.log("Mảng sau khi thêm 2 phần tử vào vị trí 0(thêm đầu):")
+    number.splice(0,0,"six","seven");
+    console.log(number);
+
+    //thêm vào vị trí 3
+    console.log("Mảng ban đầu:");
+    console.log(color);
+    console.log("Mảng sau khi thêm 1 phần tử vào vị trí 3");
+    color.splice(3,0,"orange");
+    console.log(color);
+
+    /* xóa */
+    //xóa từ vị trí 2 đi 2 phần tử
+    console.log("Mảng ban đầu:");
+    console.log(fruit);
+    console.log("Mảng sau khi xóa 2 phần tử tính từ vị trí 1");
+    fruit.splice(1,2);
+    console.log(fruit);
+
+    /* vừa thêm vừa xóa */
+    //xóa 2 phần tử từ vị trí 2 sau đó thêm 1 phần tử tại vị trí đó
+    console.log("Mảng ban đầu:");
+    console.log(car);
+    console.log("Mảng sau khi xóa 2 phần tử tính từ vị trí 2 và thêm 1 phần tử tính từ vị trí đó");
+    car.splice(2,2,"mercedes");
+    console.log(car);
+</script>
+</html>

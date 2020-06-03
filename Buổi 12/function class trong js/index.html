@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <pre>
+        Class là lớp
+        Object là đối tượng ( thể hiện cụ thể của lớp )
+        Ví dụ
+        Class là sinh viên
+        Đối tượng của class sinh viên là bạn sinh viên tên an
+        Class ô tô
+        Đối tượng class là vinfast
+    </pre>
+</body>
+<script>
+    //cách khai báo class thông qua function
+    //đây là cách phổ biến
+    function user() {
+        this.username = '';
+        this.password = '';
+
+        this.setinfo = function(username, password){
+            this.username = username;
+            this.password = password;
+        };
+
+        this.checklogin = function(){
+            if(this.username =='admin' && this.password =='123456'){
+                return true;
+            }
+            return false;
+        };
+    }
+
+    //khởi tạo 1 đối tượng với class user() trên
+        user1 = new user();
+        user1.setinfo('admin', '123456');
+        if (user1.checklogin()){
+            alert('Đăng Nhập Thành Công');
+        }else{
+            alert('Đăng Nhập Thất Bại');
+        }
+</script>
+</html>

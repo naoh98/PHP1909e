@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .container{
+            text-align: center;
+            position: relative;
+        }
+        #demo {
+            padding: 60px;
+            background: pink;
+            width: 150px;
+            margin: 0px auto;
+        }
+        button{
+            margin: 20px;
+            padding: 10px 15px;
+        }
+    </style>
+</head>
+<body>
+    <pre>
+        hide() dùng để ẩn 1 selector
+        show() dùng để hiện 1 selector
+    </pre>
+        <div class="container">
+            <div id="demo">Đây là Thẻ Div</div>
+            <button class="hide">Hide</button>
+            <button class="show">Show</button>
+        </div>
+
+</body>
+<script src="../../jquery.js"></script>
+<script>
+    $(document).ready(function () {
+        $(".hide").click(function () {
+           $("#demo").hide(1000,function () {
+               alert("đã ẩn");
+           });
+        });
+        $(".show").click(function () {
+           $("#demo").show(1000,function () {
+               alert("đã hiện");
+           });
+        });
+    });
+</script>
+</html>

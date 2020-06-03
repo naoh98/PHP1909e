@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <pre>
+        delete() dùng để xóa 1 phần tử khỏi mảng
+        delete() xóa bỏ không hoàn toàn (số lượng phần tử mảng ko đổi, phần tử bị xóa sẽ thành empty)
+        phần tử sau khi bị xóa sẽ có kiểu dữ liệu undefinfed
+
+        ==>Nên dùng pop(), shift() cho xóa mảng
+    </pre>
+</body>
+<script>
+    var car = ["toyota", "suv", "roll-royce", "mazda"];
+    //xóa "roll-royce" ra khỏi mảng
+    delete car[2];
+    console.log(car);
+    console.log(car[2]);
+</script>
+</html>

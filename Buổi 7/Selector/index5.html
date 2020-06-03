@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #wrap .row{
+            color: green;
+        }
+        #wrap>.row{
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrap">
+        <div class="row">Row con 1</div>
+        <div class="row">Row con 2</div>
+        <div class="row">Row con 3</div>
+        <div class="row">
+            <div class="row">Row cháu 1</div>
+            <div class="row">Row cháu 2</div>
+            <div class="row">Row cháu 2</div>
+            <div class="row">
+                <div class="row">Row chắt 1</div>
+                <div class="row">Row chắt 2</div>
+                <div class="row">Row chắt 3</div>
+            </div>
+        </div>
+    </div>
+    <pre>
+        select1 select2 => selector 1 chứa selector2
+        select1 > select2 => selector 2 phải là con trực tiếp của selector 1
+        chú ý : khi nhiều selector cùng thỏa mãn thì selector nào chạy sau
+        sẽ đè làm mất tác dụng của selector chạy trước nó
+    </pre>
+</body>
+</html>

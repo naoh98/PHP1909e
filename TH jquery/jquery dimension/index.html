@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .container{
+            background: orange;
+            margin: 10px;
+            padding: 10px;
+            border: 2px solid black;
+        }
+        .container, .row{
+            text-align: center;
+        }
+        #nut{
+            margin-top: 10px;
+        }
+        table, th, tr, td{
+            padding: 10px;
+            border: 1px solid black;
+            border-collapse: collapse;
+            margin: 20px auto;
+        }
+    </style>
+</head>
+<body>
+<pre>
+
+</pre>
+    <div class="container">
+        <div class="row">
+            <div class="col">Col 1</div>
+            <div class="col">Col 2</div>
+        </div>
+    </div>
+    <div class="row">
+        <button id="nut">Lấy kích cỡ</button>
+    </div>
+    <div class="result">
+        <table>
+            <thead>
+                <tr>
+                    <td>Tên Phương Thức</td>
+                    <td>Ý Nghĩa</td>
+                    <td>Kích Cỡ</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>width()</td>
+                    <td>Độ rộng bên trong content</td>
+                    <td id="w"></td>
+                </tr>
+                <tr>
+                    <td>height()</td>
+                    <td>Độ cao bên trong content</td>
+                    <td id="h"></td>
+                </tr>
+                <tr>
+                    <td>innerWidth()</td>
+                    <td>Độ rộng bên trong content + padding</td>
+                    <td id="iw"></td>
+                </tr>
+                <tr>
+                    <td>innerHeight()</td>
+                    <td>Độ cao bên trong content + padding</td>
+                    <td id="ih"></td>
+                </tr>
+                <tr>
+                    <td>outerWidth()</td>
+                    <td>Độ rộng bên trong content + padding + border</td>
+                    <td id="ow"></td>
+                </tr>
+                <tr>
+                    <td>outerHeight()</td>
+                    <td>Độ cao bên trong content + padding + border</td>
+                    <td id="oh"></td>
+                </tr>
+                <tr>
+                    <td>outerWidth(true)</td>
+                    <td>Độ rộng bên trong content + padding + border + margin</td>
+                    <td id="wt"></td>
+                </tr>
+                <tr>
+                    <td>outerHeight(true)</td>
+                    <td>Độ cao bên trong content + padding + border + margin</td>
+                    <td id="ht"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+<script src="../jquery.js"></script>
+<script>
+    $(document).ready(function () {
+        $("#nut").on("click", function () {
+            var w = $(".container").width();
+            var h = $(".container").height();
+            var iw = $(".container").innerWidth();
+            var ih = $(".container").innerHeight();
+            var ow = $(".container").outerWidth();
+            var oh = $(".container").outerHeight();
+            var wt = $(".container").outerWidth(true);
+            var ht = $(".container").outerHeight(true);
+
+            $("#w").html(w);
+            $("#h").html(h);
+            $("#iw").html(iw);
+            $("#ih").html(ih);
+            $("#ow").html(ow);
+            $("#oh").html(oh);
+            $("#wt").html(wt);
+            $("#ht").html(ht);
+        });
+    });
+</script>
+</html>

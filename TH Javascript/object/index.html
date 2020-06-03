@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    var cellphone = {
+        name: "Zenphone Go",
+        manufacturer: "Asus",
+        price: 3000000 + "VND"
+    };
+    //cách 1
+    console.log("cách 1")
+    console.log("tên điện thoại: " +cellphone.name);
+    console.log("hãng sản xuất: " +cellphone.manufacturer);
+    console.log("giá thành: " +cellphone.price);
+    //cách 2
+    console.log("cách 2")
+    console.log("tên điện thoại: " +cellphone["name"]);
+    console.log("hãng sản xuất: " +cellphone["manufacturer"]);
+    console.log("giá thành: " +cellphone["price"]);
+</script>
+</html>

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            text-align: center;
+        }
+        ul li{
+            list-style: none;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+            font-size: 22px;
+        }
+        #container{
+            border: 1px solid black;
+        }
+        header{
+            padding: 30px 0px;
+            background: lightcyan;
+        }
+        nav ul li{
+            float: left;
+            width: 25%;
+            background: #000;
+            padding: 10px 0px;
+        }
+        nav{
+            background: #000;
+        }
+        ul li:hover{
+            background: silver;
+            border-radius: 8px;
+        }
+        .section{
+            float: left;
+            width: 65%;
+            margin-left: 10px;
+        }
+        .section1{
+            float: right;
+            width: 25%;
+            margin-right: 10px;
+
+        }
+        main::after{
+            display: block;
+            content: '';
+            clear: both;
+        }
+        footer{
+            background: lightcyan;
+            padding: 20px 0px;
+        }
+        article{
+            margin: 20px 0px;
+            background: lightgoldenrodyellow;
+            border: 1px solid black;
+            border-radius: 8px;
+        }
+        aside:nth-child(2)>img{
+            display: block;
+            margin: 5px auto;
+        }
+        aside{
+            background: cornsilk;
+            margin: 20px 0px;
+            border: 1px solid black;
+            border-radius: 8px;
+        }
+
+        @media screen and (max-width: 800px) {
+            nav ul li{
+                float: none;
+                width: 100%;
+            }
+            .section{
+                float: none;
+                width: 100%;
+            }
+            .section1{
+                float: none;
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>My Website</h1>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="">Trang Chủ</a></li>
+                <li><a href="">Sản Phẩm</a></li>
+                <li><a href="">Tin Tức</a></li>
+                <li><a href="">Liên Hệ</a></li>
+            </ul>
+        </nav>
+
+        <main>
+        <section class="section">
+            <article>
+                <h2>Bài Viết 1</h2>
+                <img src="https://photo-1-baomoi.zadn.vn/w1000_r1/2018_08_13_363_27276120/75b3269deddb04855dca.jpg" alt="" width="550px" height="250px">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Alias animi aut, autem consequuntur ea earum illum libero,
+                    magnam non perspiciatis quaerat rem rerum saepe, sapiente sint
+                    ullam unde ut voluptatum.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Alias animi aut, autem consequuntur ea earum illum libero,
+                    magnam non perspiciatis quaerat rem rerum saepe, sapiente sint
+                    ullam unde ut voluptatum.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Alias animi aut, autem consequuntur ea earum illum libero,
+                    magnam non perspiciatis quaerat rem rerum saepe, sapiente sint
+                    ullam unde ut voluptatum.</p>
+            </article>
+            <article>
+                <h2>Bài Viết 2</h2>
+                <img src="https://photo-1-baomoi.zadn.vn/w1000_r1/2018_08_13_363_27276120/75b3269deddb04855dca.jpg" alt="" width="550px" height="250px">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Repellat saepe tempore voluptas? Aliquid animi at cumque expedita
+                    numquam. Amet consequatur corporis enim facere fuga inventore labore
+                    soluta voluptate! Ducimus, iusto.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Alias animi aut, autem consequuntur ea earum illum libero,
+                    magnam non perspiciatis quaerat rem rerum saepe, sapiente sint
+                    ullam unde ut voluptatum.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Alias animi aut, autem consequuntur ea earum illum libero,
+                    magnam non perspiciatis quaerat rem rerum saepe, sapiente sint
+                    ullam unde ut voluptatum.</p>
+            </article>
+        </section>
+
+        <section class="section1">
+            <aside>
+                <h3>About Me</h3>
+                <img src="https://photo-1-baomoi.zadn.vn/w1000_r1/2018_08_13_363_27276120/75b3269deddb04855dca.jpg" alt="" width="100px" height="100px">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad debitis deleniti in ipsum libero magnam pariatur, sequi voluptas? Aperiam, consequatur, vitae. Ad deleniti dolor est, expedita ipsum molestias nesciunt quam.</p>
+            </aside>
+
+            <aside>
+                <h3>Popular Post</h3>
+                <img src="https://photo-1-baomoi.zadn.vn/w1000_r1/2018_08_13_363_27276120/75b3269deddb04855dca.jpg" alt="" width="200px" height="100px">
+                <img src="https://photo-1-baomoi.zadn.vn/w1000_r1/2018_08_13_363_27276120/75b3269deddb04855dca.jpg" alt="" width="200px" height="100px">
+                <img src="https://photo-1-baomoi.zadn.vn/w1000_r1/2018_08_13_363_27276120/75b3269deddb04855dca.jpg" alt="" width="200px" height="100px">
+            </aside>
+
+            <aside>
+                <h3>Follow Me</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi dolores expedita ipsum iste labore maiores minus obcaecati officia, perferendis quas quis quos rerum sapiente sit voluptatibus. Dolorem expedita perferendis quibusdam!</p>
+            </aside>
+        </section>
+        </main>
+        <footer>
+            <h1>Footer</h1>
+        </footer>
+    </div>
+</body>
+</html>

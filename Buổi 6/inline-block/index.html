@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            font-size: 20px;
+            text-align: justify;
+        }
+        #target{
+            border: 2px solid orange;
+            padding: 10px;
+        }
+        #target::before{
+            color: red;
+            content: 'Nội dung thêm đằng trước content';
+        }
+        #target::after{
+            color: purple;
+            content: 'Nội dung thêm phía sau content';
+        }
+    </style>
+</head>
+<body>
+    <pre>
+         học kỹ thuật before và after trong css
+    - ::before được sử dụng để thêm 1 phần nội dung bằng css
+    vào trước thành phần html được chọn
+    đồng thời có thể dùng thể những thuộc tính css khác trong ::before
+    thông thường trong ::before có 1 thuộc tính là content
+    - ::after được sử dụng để thêm 1 phần nội dung bằng css
+    vào sau thành phần html được chọn
+    đồng thời có thể dùng thể những thuộc tính css khác trong ::before
+    thông thường trong ::before có 1 thuộc tính là content
+    </pre>
+    <div id="target">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Pellentesque in ipsum id orci porta dapibus.
+            Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.
+            Pellentesque in ipsum id orci porta dapibus. Sed porttitor lectus nibh.
+            Vestibulum ante ipsum primis in
+            faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque,
+            auctor sit amet aliquam vel, ullamcorper sit amet ligula. Donec rutrum congue leo eget malesuada.
+    </div>
+</body>
+</html>

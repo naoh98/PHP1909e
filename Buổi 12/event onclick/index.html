@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <pre>
+        tạo 3 nút
+        Sau khi click vào nút này hình ảnh bên dưới sẽ thay đổi theo
+        Gợi ý sử dụng thuộc tính onclick của thẻ button và thay
+        thế thuộc tính src của thẻ img bằng js
+    </pre>
+
+    <div class="container">
+        <button onclick="showimg('dog')">Dog</button>
+        <button onclick="showimg('cat')">Cat</button>
+        <button onclick="showimg('rabbit')">Rabbit</button>
+        <img src="img/dog.jpg" id="img">
+    </div>
+</body>
+<script>
+    function showimg(animal) {
+        if(animal === 'dog'){
+            document.getElementById('img').src = "img/dog.jpg";
+        }
+        if(animal === 'cat'){
+            document.getElementById('img').src = "img/cat.jpg";
+        }
+        if(animal === 'rabbit'){
+            document.getElementById('img').src = "img/rabbit.jpg";
+        }
+    }
+</script>
+</html>

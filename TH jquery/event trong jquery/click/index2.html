@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../../jquery.js"></script>
+</head>
+<body>
+    <div>Đây là thẻ div</div>
+    <button class="button1">Click vào đây để ẩn thẻ div</button>
+    <button class="button2">Click vào đây để hiện thẻ div</button>
+</body>
+<script>
+    $(document).ready(function () {
+        $(".button1").on("click", function () {
+            $("div").hide(1000);
+        });
+        $(".button2").on("click", function () {
+            $("div").show(1000);
+        })
+    });
+</script>
+</html>

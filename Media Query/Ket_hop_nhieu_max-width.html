@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kết hợp nhiều max-width</title>
+    <style type="text/css">
+        body{
+            background-image: url("img/earth.jpg");
+            background-position: top;
+        }
+        p{
+            width: 75%;
+            text-align: center;
+            background: #dcdcdc;
+            font-weight: bold;
+            padding: 10px;
+            margin: -60px auto;
+            border-radius: 10px;
+            font-size: 22px;
+            border: 2px solid gold;
+        }
+        h1{
+            text-align: center;
+            font-weight: bold;
+            background: #dcdcdc;
+            width: 35%;
+            padding: 30px 0px;
+            margin: 280px auto;
+            border-radius: 10px;
+            font-size: 50px;
+            opacity: 0.4;
+            border: 2px dotted gold;
+        }
+        h1::after{
+            display: block;
+            content: 'Default';
+            padding: 10px 0px;
+            font-size: 26px;
+            font-weight: bold;
+        }
+
+        @media screen and (max-width: 1200px) {
+            body{
+                background-image: url("img/earth1.jpg");
+                background-position: top;
+            }
+            h1{
+                color: #ff1a1f;
+                opacity: 0.6;
+            }
+            h1::after{
+                color: #ff1a1f;
+                content: 'Max-width: 1200px';
+            }
+        }
+
+        @media screen and (max-width: 800px) {
+            body{
+                background-image: url("img/earth2.jpg");
+                background-position: center;
+            }
+            h1{
+                color: darkslateblue;
+                opacity: 0.6;
+            }
+            h1::after{
+                color: darkslateblue;
+                content: 'Max-width: 800px';
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>The Earth</h1>
+    <p>Dùng nhiều Max-width thì đặt giảm dần</p>
+</body>
+</html>

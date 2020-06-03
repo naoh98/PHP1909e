@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #news {
+            overflow: visible;
+            height: 200px;
+            width: 400px;
+            margin: 0px auto;
+            border: 3px solid red;
+            padding: 10px;
+            margin-bottom: 270px;
+        }
+        #news1 {
+            overflow: hidden;
+            height: 200px;
+            width: 400px;
+            margin: 0px auto;
+            border: 3px solid red;
+            padding: 10px;
+            margin-bottom: 30px;
+
+        }
+        #news2 {
+            overflow: scroll;
+            height: 200px;
+            width: 400px;
+            margin: 0px auto;
+            border: 3px solid red;
+            padding: 10px;
+            margin-bottom: 30px;
+        }
+        #news3 {
+            overflow: auto;
+            height: 200px;
+            width: 400px;
+            margin: 0px auto;
+            border: 3px solid red;
+            padding: 10px;
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+    <pre>
+            thuộc tính css overflow ?
+    The CSS overflow property controls what happens to content that is too big to fit into an area.
+    Thuộc tính overflow kiểm soát chuyện gì sẽ xảy ra khi mà phần nội dung bên trong 1 thẻ html vượt quá kích cỡ của thẻ chứa nó
+    có 4 giá trị cho thuộc tính overflow
+    1 - visible ( hiển thị và đây là giá trị mặc định )
+    2 - hidden ( ẩn )
+    3 - scroll ( hiện con cuộn chuột )
+    4 - auto ( nếu phần content vừa đủ thì không hiện thanh scrollbar
+    nếu content vượt quá kích cỡ của thẻ thì sữ hiện thanh scrollbar )
+    </pre>
+    <div id="news">
+        <h2>Visible</h2>
+        <p>Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.
+            Nulla porttitor accumsan tincidunt. Vestibulum ac diam sit amet quam vehicula elementum
+            sed sit amet dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
+            cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.
+            Sed porttitor lectus nibh. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.
+            Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Curabitur aliquet quam id
+            dui posuere blandit. Donec rutrum congue leo eget malesuada. Vestibulum ante ipsum primis in
+            faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet
+            aliquam vel, ullamcorper sit amet ligula. Proin eget tortor risus. Proin eget tortor risus.
+            Nulla quis lorem ut libero malesuada feugiat. Vivamus suscipit tortor eget felis porttitor volutpat.
+            Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vestibulum ac diam sit amet quam
+            vehicula elementum sed sit amet dui. Curabitur non nulla sit amet nisl tempus convallis quis ac
+            lectus. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Pellentesque in ipsum
+            id orci porta dapibus. Nulla quis lorem ut libero malesuada feugiat.</p>
+    </div>
+    <div id="news1">
+        <h2>Hidden</h2>
+        <p>Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.
+            Nulla porttitor accumsan tincidunt. Vestibulum ac diam sit amet quam vehicula elementum
+            sed sit amet dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
+            cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.
+            Sed porttitor lectus nibh. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.
+            Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Curabitur aliquet quam id
+            dui posuere blandit. Donec rutrum congue leo eget malesuada. Vestibulum ante ipsum primis in
+            faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet
+            aliquam vel, ullamcorper sit amet ligula. Proin eget tortor risus. Proin eget tortor risus.
+            Nulla quis lorem ut libero malesuada feugiat. Vivamus suscipit tortor eget felis porttitor volutpat.
+            Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vestibulum ac diam sit amet quam
+            vehicula elementum sed sit amet dui. Curabitur non nulla sit amet nisl tempus convallis quis ac
+            lectus. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Pellentesque in ipsum
+            id orci porta dapibus. Nulla quis lorem ut libero malesuada feugiat.</p>
+    </div>
+    <div id="news2">
+        <h2>Scroll</h2>
+        <p>Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.
+            Nulla porttitor accumsan tincidunt. Vestibulum ac diam sit amet quam vehicula elementum
+            sed sit amet dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
+            cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.
+            Sed porttitor lectus nibh. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.
+            Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Curabitur aliquet quam id
+            dui posuere blandit. Donec rutrum congue leo eget malesuada. Vestibulum ante ipsum primis in
+            faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet
+            aliquam vel, ullamcorper sit amet ligula. Proin eget tortor risus. Proin eget tortor risus.
+            Nulla quis lorem ut libero malesuada feugiat. Vivamus suscipit tortor eget felis porttitor volutpat.
+            Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vestibulum ac diam sit amet quam
+            vehicula elementum sed sit amet dui. Curabitur non nulla sit amet nisl tempus convallis quis ac
+            lectus. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Pellentesque in ipsum
+            id orci porta dapibus. Nulla quis lorem ut libero malesuada feugiat.</p>
+    </div>
+    <div id="news3">
+        <h2>Auto</h2>
+        <p>Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.
+            Nulla porttitor accumsan tincidunt. Vestibulum ac diam sit amet quam vehicula elementum
+            sed sit amet dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
+            cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.
+            Sed porttitor lectus nibh. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.
+            Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Curabitur aliquet quam id
+            dui posuere blandit. Donec rutrum congue leo eget malesuada. Vestibulum ante ipsum primis in
+            faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet
+            aliquam vel, ullamcorper sit amet ligula. Proin eget tortor risus. Proin eget tortor risus.
+            Nulla quis lorem ut libero malesuada feugiat. Vivamus suscipit tortor eget felis porttitor volutpat.
+            Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vestibulum ac diam sit amet quam
+            vehicula elementum sed sit amet dui. Curabitur non nulla sit amet nisl tempus convallis quis ac
+            lectus. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Pellentesque in ipsum
+            id orci porta dapibus. Nulla quis lorem ut libero malesuada feugiat.</p>
+    </div>
+</body>
+</html>

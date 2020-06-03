@@ -1,0 +1,935 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c3cc726d-757c-44b6-9ec5-96ac7aebecf2" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Buổi 31/Bookstore/app/Http/Controllers/Backend/BooksController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-219">
+              <caret line="54" column="39" selection-start-line="54" selection-start-column="39" selection-end-line="54" selection-end-column="39" />
+              <folding>
+                <element signature="e#48#84#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Buổi 31/Bookstore/resources/views/bookstore/Template/subviews/manage_create.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="27" column="65" selection-start-line="27" selection-start-column="65" selection-end-line="27" selection-end-column="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Buổi 31/Bookstore/resources/views/bookstore/Template/subviews/manage_update.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="41" selection-start-line="41" selection-end-line="52" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Buổi 31/Bookstore/resources/views/bookstore/Template/subviews/management.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Buổi 31/Bookstore/app/Http/Controllers/Backend/TemplateController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="359">
+              <caret line="134" column="45" selection-start-line="134" selection-start-column="45" selection-end-line="134" selection-end-column="45" />
+              <folding>
+                <element signature="e#48#84#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Buổi 31/Bookstore/routes/web.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>col-</find>
+      <find>col-sm</find>
+      <find>countdown</find>
+      <find>pop</find>
+      <find>ul</find>
+      <find>click</find>
+      <find>change</find>
+      <find>#</find>
+      <find>id</find>
+      <find>include</find>
+      <find>./img/</find>
+      <find>chart</find>
+      <find>img</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>co</replace>
+      <replace>col-sm</replace>
+      <replace>col-sm-</replace>
+      <replace>col-md</replace>
+      <replace>distance</replace>
+      <replace>shift</replace>
+      <replace>dblclick</replace>
+      <replace>focus</replace>
+      <replace>.</replace>
+      <replace>class</replace>
+      <replace>include_once</replace>
+      <replace>assets/img/</replace>
+      <replace>container</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Buổi 31/Bookstore/resources/views/html_bookstore/backend/edit.html" />
+        <option value="$PROJECT_DIR$/Buổi 31/Bookstore/resources/views/html_bookstore/backend/index.html" />
+        <option value="$PROJECT_DIR$/Buổi 31/Bookstore/app/Models/Frontend/BooksModel.php" />
+        <option value="$PROJECT_DIR$/barchart/html.html" />
+        <option value="$PROJECT_DIR$/barchart/js.js" />
+        <option value="$PROJECT_DIR$/Buổi 31/Bookstore/resources/views/bookstore/backend/subviews/delete.blade.php" />
+        <option value="$PROJECT_DIR$/App_template+Login_Php_Mysql/App_template/index.php" />
+        <option value="$PROJECT_DIR$/App_template+Login_Php_Mysql/App_template/partials/header.php" />
+        <option value="$PROJECT_DIR$/Buổi 31/Bookstore/app/Http/Controllers/Backend/LearndbController.php" />
+        <option value="$PROJECT_DIR$/Buổi 31/Bookstore/database/migrations/2020_05_14_121324_create_roles_table.php" />
+        <option value="$PROJECT_DIR$/Buổi 31/Bookstore/database/migrations/2020_05_14_121816_create_comments_table.php" />
+        <option value="$PROJECT_DIR$/Buổi 31/Bookstore/database/migrations/2020_05_14_121859_create_roleusers_table.php" />
+        <option value="$PROJECT_DIR$/Buổi 31/Bookstore/app/Comment.php" />
+        <option value="$PROJECT_DIR$/Buổi 31/Bookstore/app/User.php" />
+        <option value="$PROJECT_DIR$/Buổi 31/Bookstore/app/Role.php" />
+        <option value="$PROJECT_DIR$/Buổi 31/Bookstore/database/migrations/2020_05_14_133821_create_cmtusers_table.php" />
+        <option value="$PROJECT_DIR$/Buổi 31/Bookstore/app/CMT.php" />
+        <option value="$PROJECT_DIR$/Buổi 31/Bookstore/app/Models/Backend/BooksModel.php" />
+        <option value="$PROJECT_DIR$/Buổi 31/Bookstore/app/Http/Controllers/Backend/LearnormController.php" />
+        <option value="$PROJECT_DIR$/Buổi 31/Bookstore/resources/views/bookstore/backend/subviews/create.blade.php" />
+        <option value="$PROJECT_DIR$/Buổi 31/Bookstore/storage/framework/views/0f7e569b2321b26dde18d381278e8dc3de2b529c.php" />
+        <option value="$PROJECT_DIR$/Buổi 31/Bookstore/resources/js/action.js" />
+        <option value="$PROJECT_DIR$/Buổi 31/Bookstore/resources/views/bookstore/backend/layouts/main.blade.php" />
+        <option value="$PROJECT_DIR$/Buổi 31/Bookstore/app/Http/Controllers/Backend/BooksController.php" />
+        <option value="$PROJECT_DIR$/Buổi 31/Bookstore/resources/views/bookstore/backend/subviews/edit.blade.php" />
+        <option value="$PROJECT_DIR$/Buổi 31/Bookstore/resources/views/bookstore/Template(Laravel)/partials/sidebar.blade.php" />
+        <option value="$PROJECT_DIR$/Buổi 31/Bookstore/resources/views/bookstore/Template(Laravel)/partials/topbar.blade.php" />
+        <option value="$PROJECT_DIR$/Buổi 31/Bookstore/resources/views/bookstore/Template(Laravel)/partials/footer.blade.php" />
+        <option value="$PROJECT_DIR$/Buổi 31/Bookstore/resources/views/bookstore/Template(Laravel)/layout/index.blade.php" />
+        <option value="$PROJECT_DIR$/Buổi 31/Bookstore/resources/views/bookstore/Template(Laravel)/subviews/index.blade.php" />
+        <option value="$PROJECT_DIR$/Buổi 31/Bookstore/resources/views/bookstore/Template/partials/footer.blade.php" />
+        <option value="$PROJECT_DIR$/Buổi 31/Bookstore/app/Http/Kernel.php" />
+        <option value="$PROJECT_DIR$/Buổi 31/Bookstore/resources/views/bookstore/Template/layout/index.blade.php" />
+        <option value="$PROJECT_DIR$/Buổi 31/Bookstore/resources/views/bookstore/Template/layout/login.blade.php" />
+        <option value="$PROJECT_DIR$/Buổi 31/Bookstore/resources/views/bookstore/Template/layout/register.blade.php" />
+        <option value="$PROJECT_DIR$/Buổi 31/Bookstore/resources/views/bookstore/Template/subviews/index.blade.php" />
+        <option value="$PROJECT_DIR$/Buổi 31/Bookstore/app/Http/Middleware/Sblogin.php" />
+        <option value="$PROJECT_DIR$/Buổi 31/Bookstore/resources/views/bookstore/Template/subviews/login.blade.php" />
+        <option value="$PROJECT_DIR$/Buổi 31/Bookstore/resources/views/bookstore/Template/subviews/register.blade.php" />
+        <option value="$PROJECT_DIR$/Buổi 31/Bookstore/.env" />
+        <option value="$PROJECT_DIR$/Buổi 31/Bookstore/app/Models/Backend/CategoryModel.php" />
+        <option value="$PROJECT_DIR$/Buổi 31/Bookstore/resources/views/bookstore/backend/subviews/index.blade.php" />
+        <option value="$PROJECT_DIR$/Buổi 31/Bookstore/resources/views/bookstore/Template/partials/topbar.blade.php" />
+        <option value="$PROJECT_DIR$/Buổi 31/Bookstore/resources/views/bookstore/Template/subviews/manage_delete.blade.php" />
+        <option value="$PROJECT_DIR$/Buổi 31/Bookstore/resources/views/bookstore/Template/partials/sidebar.blade.php" />
+        <option value="$PROJECT_DIR$/Buổi 31/Bookstore/resources/views/bookstore/Template/subviews/manage_update.php" />
+        <option value="$PROJECT_DIR$/Buổi 31/Bookstore/resources/views/bookstore/Template/subviews/manage_update.blade.php" />
+        <option value="$PROJECT_DIR$/Buổi 31/Bookstore/resources/views/bookstore/Template/subviews/management.blade.php" />
+        <option value="$PROJECT_DIR$/Buổi 31/Bookstore/routes/web.php" />
+        <option value="$PROJECT_DIR$/Buổi 31/Bookstore/resources/views/bookstore/Template/subviews/manage_create.blade.php" />
+        <option value="$PROJECT_DIR$/Buổi 31/Bookstore/app/Http/Controllers/Backend/TemplateController.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/Buổi 29/001/FirstLaravel/package.json" />
+      <path value="$PROJECT_DIR$/Buổi 29/002/SecondLaravel/package.json" />
+      <path value="$PROJECT_DIR$/Buổi 30/NewLaravel/package.json" />
+      <path value="$PROJECT_DIR$/Buổi 31/Bookstore/package.json" />
+      <path value="$PROJECT_DIR$/Buổi 31/Bookstore/public/sbadmin2/vendor/fontawesome-free/package.json" />
+      <path value="$PROJECT_DIR$/Buổi 31/Bookstore/vendor/facade/ignition/package.json" />
+      <path value="$PROJECT_DIR$/template (laravel)/package.json" />
+      <path value="$PROJECT_DIR$/template (laravel)/vendor/fontawesome-free/package.json" />
+      <path value="$PROJECT_DIR$/testlv/hihi/package.json" />
+      <path value="$PROJECT_DIR$/testlv/hihi/vendor/facade/ignition/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="120" />
+    <option name="y" value="35" />
+    <option name="width" value="1720" />
+    <option name="height" value="1015" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="1909ephp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1909ephp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1909ephp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1909ephp" type="462c0819:PsiDirectoryNode" />
+              <item name="Buổi 31" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1909ephp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1909ephp" type="462c0819:PsiDirectoryNode" />
+              <item name="Buổi 31" type="462c0819:PsiDirectoryNode" />
+              <item name="Bookstore" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1909ephp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1909ephp" type="462c0819:PsiDirectoryNode" />
+              <item name="Buổi 31" type="462c0819:PsiDirectoryNode" />
+              <item name="Bookstore" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1909ephp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1909ephp" type="462c0819:PsiDirectoryNode" />
+              <item name="Buổi 31" type="462c0819:PsiDirectoryNode" />
+              <item name="Bookstore" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1909ephp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1909ephp" type="462c0819:PsiDirectoryNode" />
+              <item name="Buổi 31" type="462c0819:PsiDirectoryNode" />
+              <item name="Bookstore" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1909ephp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1909ephp" type="462c0819:PsiDirectoryNode" />
+              <item name="Buổi 31" type="462c0819:PsiDirectoryNode" />
+              <item name="Bookstore" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1909ephp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1909ephp" type="462c0819:PsiDirectoryNode" />
+              <item name="Buổi 31" type="462c0819:PsiDirectoryNode" />
+              <item name="Bookstore" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Models" type="462c0819:PsiDirectoryNode" />
+              <item name="Backend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1909ephp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1909ephp" type="462c0819:PsiDirectoryNode" />
+              <item name="Buổi 31" type="462c0819:PsiDirectoryNode" />
+              <item name="Bookstore" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1909ephp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1909ephp" type="462c0819:PsiDirectoryNode" />
+              <item name="Buổi 31" type="462c0819:PsiDirectoryNode" />
+              <item name="Bookstore" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1909ephp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1909ephp" type="462c0819:PsiDirectoryNode" />
+              <item name="Buổi 31" type="462c0819:PsiDirectoryNode" />
+              <item name="Bookstore" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="bookstore" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1909ephp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1909ephp" type="462c0819:PsiDirectoryNode" />
+              <item name="Buổi 31" type="462c0819:PsiDirectoryNode" />
+              <item name="Bookstore" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="bookstore" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1909ephp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1909ephp" type="462c0819:PsiDirectoryNode" />
+              <item name="Buổi 31" type="462c0819:PsiDirectoryNode" />
+              <item name="Bookstore" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="bookstore" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="subviews" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1909ephp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1909ephp" type="462c0819:PsiDirectoryNode" />
+              <item name="Buổi 31" type="462c0819:PsiDirectoryNode" />
+              <item name="Bookstore" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="bookstore" type="462c0819:PsiDirectoryNode" />
+              <item name="Template" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1909ephp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1909ephp" type="462c0819:PsiDirectoryNode" />
+              <item name="Buổi 31" type="462c0819:PsiDirectoryNode" />
+              <item name="Bookstore" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="bookstore" type="462c0819:PsiDirectoryNode" />
+              <item name="Template" type="462c0819:PsiDirectoryNode" />
+              <item name="partials" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1909ephp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1909ephp" type="462c0819:PsiDirectoryNode" />
+              <item name="Buổi 31" type="462c0819:PsiDirectoryNode" />
+              <item name="Bookstore" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="bookstore" type="462c0819:PsiDirectoryNode" />
+              <item name="Template" type="462c0819:PsiDirectoryNode" />
+              <item name="subviews" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1909ephp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1909ephp" type="462c0819:PsiDirectoryNode" />
+              <item name="Buổi 31" type="462c0819:PsiDirectoryNode" />
+              <item name="Bookstore" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1909ephp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1909ephp" type="462c0819:PsiDirectoryNode" />
+              <item name="dbproject-master" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1909ephp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1909ephp" type="462c0819:PsiDirectoryNode" />
+              <item name="dbproject-master" type="462c0819:PsiDirectoryNode" />
+              <item name="dbproject-master" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1909ephp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1909ephp" type="462c0819:PsiDirectoryNode" />
+              <item name="dbproject-master" type="462c0819:PsiDirectoryNode" />
+              <item name="dbproject-master" type="462c0819:PsiDirectoryNode" />
+              <item name="opencart" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1909ephp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1909ephp" type="462c0819:PsiDirectoryNode" />
+              <item name="dbproject-master" type="462c0819:PsiDirectoryNode" />
+              <item name="dbproject-master" type="462c0819:PsiDirectoryNode" />
+              <item name="opencart" type="462c0819:PsiDirectoryNode" />
+              <item name="upload" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1909ephp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1909ephp" type="462c0819:PsiDirectoryNode" />
+              <item name="dbproject-master" type="462c0819:PsiDirectoryNode" />
+              <item name="dbproject-master" type="462c0819:PsiDirectoryNode" />
+              <item name="opencart" type="462c0819:PsiDirectoryNode" />
+              <item name="upload" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1909ephp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1909ephp" type="462c0819:PsiDirectoryNode" />
+              <item name="dbproject-master" type="462c0819:PsiDirectoryNode" />
+              <item name="dbproject-master" type="462c0819:PsiDirectoryNode" />
+              <item name="opencart" type="462c0819:PsiDirectoryNode" />
+              <item name="upload" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1909ephp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1909ephp" type="462c0819:PsiDirectoryNode" />
+              <item name="dbproject-master" type="462c0819:PsiDirectoryNode" />
+              <item name="dbproject-master" type="462c0819:PsiDirectoryNode" />
+              <item name="opencart" type="462c0819:PsiDirectoryNode" />
+              <item name="upload" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1909ephp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1909ephp" type="462c0819:PsiDirectoryNode" />
+              <item name="dbproject-master" type="462c0819:PsiDirectoryNode" />
+              <item name="dbproject-master" type="462c0819:PsiDirectoryNode" />
+              <item name="opencart" type="462c0819:PsiDirectoryNode" />
+              <item name="upload" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+              <item name="catalog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1909ephp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1909ephp" type="462c0819:PsiDirectoryNode" />
+              <item name="dbproject-master" type="462c0819:PsiDirectoryNode" />
+              <item name="dbproject-master" type="462c0819:PsiDirectoryNode" />
+              <item name="opencart" type="462c0819:PsiDirectoryNode" />
+              <item name="upload" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\1909ephp\Buổi 31\Bookstore" />
+      <recent name="C:\xampp\htdocs\1909ephp\Buổi 31" />
+      <recent name="E:\Xampp\htdocs\1909ephp\Buổi 31\Bookstore\public\sbadmin2" />
+      <recent name="E:\Xampp\htdocs\1909ephp\Buổi 31\Bookstore\public\js" />
+      <recent name="E:\Xampp\htdocs\1909ephp\Buổi 31\Bookstore\public" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Xampp\htdocs\1909ephp\Buổi 31\Bookstore\resources\views\bookstore\frontend" />
+      <recent name="E:\Xampp\htdocs\1909ephp\Buổi 31\Bookstore\resources\views\bookstore\backend" />
+      <recent name="E:\Xampp\htdocs\1909ephp\MVC\mvc" />
+      <recent name="E:\Xampp\htdocs\1909ephp\Buổi 27\demo\mvc\view-post\post" />
+      <recent name="E:\Xampp\htdocs\1909ephp\Buổi 27\demo" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c3cc726d-757c-44b6-9ec5-96ac7aebecf2" name="Default Changelist" comment="" />
+      <created>1570102342961</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1570102342961</updated>
+      <workItem from="1570102348586" duration="9296000" />
+      <workItem from="1570360196899" duration="10097000" />
+      <workItem from="1570706059437" duration="9955000" />
+      <workItem from="1570965594649" duration="9640000" />
+      <workItem from="1571042115894" duration="2526000" />
+      <workItem from="1571061264424" duration="6046000" />
+      <workItem from="1571123909084" duration="185000" />
+      <workItem from="1571124393407" duration="1673000" />
+      <workItem from="1571126781075" duration="49000" />
+      <workItem from="1571310835288" duration="9830000" />
+      <workItem from="1571676980814" duration="2775000" />
+      <workItem from="1571757506622" duration="13352000" />
+      <workItem from="1571771757485" duration="61000" />
+      <workItem from="1571771916432" duration="3894000" />
+      <workItem from="1572174331708" duration="9929000" />
+      <workItem from="1572447678898" duration="15137000" />
+      <workItem from="1572519746083" duration="8176000" />
+      <workItem from="1572778949188" duration="6618000" />
+      <workItem from="1572785667887" duration="3588000" />
+      <workItem from="1573126367797" duration="8926000" />
+      <workItem from="1573137538872" duration="3613000" />
+      <workItem from="1573300994060" duration="8130000" />
+      <workItem from="1573384938177" duration="21875000" />
+      <workItem from="1573914143672" duration="10687000" />
+      <workItem from="1573979698682" duration="15834000" />
+      <workItem from="1574161391911" duration="28665000" />
+      <workItem from="1574234955652" duration="10975000" />
+      <workItem from="1574255003484" duration="9554000" />
+      <workItem from="1574334905715" duration="9813000" />
+      <workItem from="1575003808025" duration="7000000" />
+      <workItem from="1575055733594" duration="3805000" />
+      <workItem from="1575064542147" duration="830000" />
+      <workItem from="1575113987532" duration="592000" />
+      <workItem from="1575187068038" duration="6909000" />
+      <workItem from="1575197686191" duration="11022000" />
+      <workItem from="1575543937970" duration="10071000" />
+      <workItem from="1575802960190" duration="10406000" />
+      <workItem from="1576149704154" duration="8229000" />
+      <workItem from="1576408788448" duration="668000" />
+      <workItem from="1576416981095" duration="421000" />
+      <workItem from="1576754848987" duration="9241000" />
+      <workItem from="1576943795678" duration="6256000" />
+      <workItem from="1577013028229" duration="8479000" />
+      <workItem from="1577275947162" duration="57624000" />
+      <workItem from="1577355208544" duration="12461000" />
+      <workItem from="1577371051724" duration="659000" />
+      <workItem from="1577613679806" duration="1369000" />
+      <workItem from="1577618794337" duration="9196000" />
+      <workItem from="1577807542249" duration="691000" />
+      <workItem from="1577869862560" duration="31165000" />
+      <workItem from="1577965324156" duration="7688000" />
+      <workItem from="1578201199575" duration="29000" />
+      <workItem from="1578222507681" duration="9260000" />
+      <workItem from="1578553343968" duration="1485000" />
+      <workItem from="1578570272597" duration="7707000" />
+      <workItem from="1578827116923" duration="1088000" />
+      <workItem from="1578828968546" duration="4261000" />
+      <workItem from="1578834008667" duration="3315000" />
+      <workItem from="1581593043980" duration="9344000" />
+      <workItem from="1581845829575" duration="664000" />
+      <workItem from="1581851965006" duration="8599000" />
+      <workItem from="1582624030875" duration="1351000" />
+      <workItem from="1582796036954" duration="19495000" />
+      <workItem from="1583407512155" duration="9515000" />
+      <workItem from="1583506464532" duration="893000" />
+      <workItem from="1583510391832" duration="597000" />
+      <workItem from="1583515795896" duration="4412000" />
+      <workItem from="1583602447152" duration="3299000" />
+      <workItem from="1584597325889" duration="46000" />
+      <workItem from="1585684852742" duration="115000" />
+      <workItem from="1585685076848" duration="294000" />
+      <workItem from="1585685875555" duration="420000" />
+      <workItem from="1585687976254" duration="248000" />
+      <workItem from="1585688452208" duration="237000" />
+      <workItem from="1588850942449" duration="8367000" />
+      <workItem from="1589093071562" duration="4037000" />
+      <workItem from="1589108950510" duration="10309000" />
+      <workItem from="1589455431971" duration="9384000" />
+      <workItem from="1589715486110" duration="8875000" />
+      <workItem from="1589910288937" duration="349000" />
+      <workItem from="1589964084824" duration="22388000" />
+      <workItem from="1590043656162" duration="8762000" />
+      <workItem from="1590060210315" duration="9346000" />
+      <workItem from="1590319030068" duration="8528000" />
+      <workItem from="1590331316756" duration="722000" />
+      <workItem from="1590665754567" duration="6199000" />
+      <workItem from="1590906437174" duration="322000" />
+      <workItem from="1590924667834" duration="669000" />
+      <workItem from="1591004303671" duration="1266000" />
+      <workItem from="1591005654314" duration="25242000" />
+      <workItem from="1591102553996" duration="20285000" />
+      <workItem from="1591161934854" duration="17823000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="705228000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="878" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49923664" visible="true" weight="0.21006711" />
+      <window_info id="Structure" order="1" sideWeight="0.50076336" side_tool="true" weight="0.23637821" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32348993" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32885906" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49932885" visible="true" weight="0.22550336" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50067115" side_tool="true" weight="0.22550336" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2173913" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32854864" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Buổi 31/Bookstore/resources/views/bookstore/frontend/jquery.js" />
+    <entry file="file://$PROJECT_DIR$/Buổi 31/Bookstore/public/js/jquery.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TH jquery/thao tác với class trong jquery/add nhiều class.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-355" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TH jquery/thao tác với class trong jquery/css.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-627" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Buổi 31/Bookstore/resources/views/bookstore/backend/partials/footer.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Buổi 31/Bookstore/resources/views/bookstore/Template/partials/footer.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Buổi 31/Bookstore/public/sbadmin2/img/undraw_posting_photo.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Buổi 31/Bookstore/resources/views/bookstore/Template/layout/login.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="51" selection-start-line="39" selection-start-column="51" selection-end-line="39" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Buổi 31/Bookstore/resources/views/bookstore/Template/layout/register.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="38" column="51" selection-start-line="38" selection-start-column="51" selection-end-line="38" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Buổi 31/Bookstore/app/Console/Kernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-270" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Buổi 31/Bookstore/app/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="31" column="58" selection-start-line="31" selection-start-column="58" selection-end-line="31" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Buổi 31/Bookstore/app/Http/Controllers/Auth/LoginController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-219" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Buổi 31/Bookstore/app/Http/Controllers/Auth/RegisterController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="69" column="56" lean-forward="true" selection-start-line="69" selection-start-column="56" selection-end-line="69" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Buổi 31/Bookstore/resources/views/bookstore/Template/subviews/login.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="69" selection-start-line="35" selection-start-column="69" selection-end-line="35" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Buổi 31/Bookstore/resources/views/bookstore/Template/subviews/register.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="65" selection-start-line="23" selection-start-column="65" selection-end-line="23" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Buổi 31/Bookstore/app/Http/Middleware/Sblogin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Buổi 31/.env" />
+    <entry file="file://$PROJECT_DIR$/Buổi 31/Bookstore/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Buổi 31/Bookstore/.env.example">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dbproject-master/dbproject-master/opencart/upload/index.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dbproject-master/dbproject-master/opencart/upload/config.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dbproject-master/dbproject-master/opencart/upload/admin/index.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dbproject-master/dbproject-master/opencart/upload/admin/view/template/catalog/attribute_group_form.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-204" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Buổi 31/Bookstore/public/sbadmin2/js/demo/chart-bar-demo.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Buổi 31/Bookstore/public/sbadmin2/js/demo/datatables-demo.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Buổi 31/Bookstore/public/sbadmin2/js/sb-admin-2.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Buổi 31/Bookstore/public/sbadmin2/js/sb-admin-2.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Buổi 31/Bookstore/resources/views/bookstore/backend/layouts/main.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dbproject-master/dbproject-master/opencart/upload/admin/view/template/catalog/category_list.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="80" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dbproject-master/dbproject-master/opencart/upload/admin/view/template/catalog/category_form.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Buổi 31/Bookstore/app/Models/Backend/BooksModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Buổi 31/Bookstore/resources/views/bookstore/Template/layout/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-285">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Buổi 31/Bookstore/resources/views/bookstore/Template/partials/topbar.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="153" column="85" selection-start-line="153" selection-start-column="85" selection-end-line="153" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Buổi 31/Bookstore/app/Models/Backend/CategoryModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Buổi 31/Bookstore/resources/views/bookstore/backend/subviews/delete.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Buổi 31/Bookstore/resources/views/bookstore/backend/subviews/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="62" selection-start-line="13" selection-start-column="62" selection-end-line="13" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Buổi 31/Bookstore/app/Http/Controllers/Backend/LearnormController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-627" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Buổi 31/Bookstore/app/Http/Controllers/Backend/LearndbController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-714" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Buổi 31/Bookstore/resources/views/bookstore/Template/partials/sidebar.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="56" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Buổi 31/Bookstore/resources/views/bookstore/Template/subviews/manage_update.php" />
+    <entry file="file://$PROJECT_DIR$/Buổi 31/Bookstore/resources/views/bookstore/Template/subviews/manage_delete.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="31" lean-forward="true" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Buổi 31/Bookstore/app/Http/Controllers/Backend/BooksController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-219">
+          <caret line="54" column="39" selection-start-line="54" selection-start-column="39" selection-end-line="54" selection-end-column="39" />
+          <folding>
+            <element signature="e#48#84#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Buổi 31/Bookstore/resources/views/bookstore/backend/subviews/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="25" selection-start-line="25" selection-end-line="27" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Buổi 31/Bookstore/resources/views/bookstore/Template/subviews/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
+          <folding>
+            <element signature="e#126#423#0#HTML" />
+            <element signature="e#454#4301#0#HTML" />
+            <element signature="e#4388#5898#0#HTML" />
+            <element signature="e#5935#7962#0#HTML" />
+            <element signature="e#8004#14075#0#HTML" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Buổi 31/Bookstore/app/Http/Kernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="66" column="7" selection-start-line="66" selection-start-column="7" selection-end-line="66" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Buổi 31/Bookstore/resources/views/bookstore/backend/subviews/edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1028">
+          <caret line="76" column="56" selection-start-line="76" selection-start-column="56" selection-end-line="76" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Buổi 31/Bookstore/resources/views/bookstore/Template/subviews/manage_update.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="41" selection-start-line="41" selection-end-line="52" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Buổi 31/Bookstore/resources/views/bookstore/Template/subviews/management.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Buổi 31/Bookstore/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Buổi 31/Bookstore/resources/views/bookstore/Template/subviews/manage_create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="27" column="65" selection-start-line="27" selection-start-column="65" selection-end-line="27" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Buổi 31/Bookstore/app/Http/Controllers/Backend/TemplateController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="134" column="45" selection-start-line="134" selection-start-column="45" selection-end-line="134" selection-end-column="45" />
+          <folding>
+            <element signature="e#48#84#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

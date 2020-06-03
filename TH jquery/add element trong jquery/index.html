@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            text-align: center;
+        }
+        .container{
+            width: 900px;
+            margin: 0px auto;
+            margin-top: 20px;
+            background: cornsilk;
+            font-weight: bold;
+            padding: 10px;
+        }
+        button{
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <pre>
+        **append() thêm nội dung vào  CUỐI selector được chọn (vẫn trong selector đó nhưng ở cuối)
+        trong khi after() thêm nội dung vào SAU selector được chọn (ko còn trong selector mà là ở sau selector đó)
+
+        **prepend() thêm nội dung vào ĐẦU selector được chọn (vẫn trong selector đó nhưng ở đầu)
+        trong khi before() thêm nội dung vào TRƯỚC selector được chọn (ko còn trong selector mà là ở trước selector)
+    </pre>
+    <div class="container">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Ex exercitationem maiores perspiciatis repellendus tenetur!
+        Accusamus alias aliquid blanditiis et,
+        facilis, in nobis nostrum obcaecati pariatur perferendis
+        quaerat quos soluta, voluptates.
+    </div>
+
+    <div class="control">
+        <button id="btn-append">Append()</button>
+        <button id="btn-prepend">Prepend()</button>
+        <button id="btn-after">After()</button>
+        <button id="btn-before">Before()</button>
+    </div>
+</body>
+<script src="../jquery.js"></script>
+<script>
+    $(document).ready(function () {
+        $("#btn-append").on("click", function () {
+            $(".container").append("<div style='color: red;'>Append</div>");
+        });
+
+        $("#btn-prepend").on("click", function () {
+            $(".container").prepend("<div style='color: red;'>Prepend</div>");
+        });
+
+        $("#btn-after").on("click", function () {
+            $(".container").after("<div style='color: red;'>After</div>");
+        });
+
+        $("#btn-before").on("click", function () {
+            $(".container").before("<div style='color: red;'>Before</div>");
+        });
+    });
+</script>
+</html>

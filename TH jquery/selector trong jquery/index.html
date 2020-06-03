@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="../jquery.js"></script>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            font-size: 22px;
+        }
+        div{
+            padding: 30px;
+            margin: 20px;
+        }
+        #p1{
+            color: red;
+        }
+        .p2{
+            color: lawngreen;
+        }
+        input[name="username"]{
+            border: 2px solid mediumpurple;
+        }
+    </style>
+</head>
+<body>
+    <div>Thẻ div</div>
+    <p id="p1">Thẻ p1</p>
+    <p class="p2">Thẻ p2</p>
+
+    <form action="" method="post">
+        <input type="text" value="" name="username">
+    </form>
+
+    <div class="container">
+        Div class row
+        <div class="row">
+            <div class="col">Cột 1</div>
+            <div class="col">
+                Cột 2
+                <div class="row">
+                    <div class="col">Cột con 1</div>
+                    <div class="col">Cột con 2</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    $(document).ready(function () {
+        $("div").css("background", "lightsalmon");
+        $("#p1").css("background", "lightskyblue");
+        $("*").css("text-align", "center");
+        $(".p2").css("background", "black");
+        $("input[name='username']").css({"border-radius": "10px", "margin-top": "15px"});
+        $(".row .col").css("border", "1px solid green");
+    });
+</script>
+</html>

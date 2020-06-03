@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            text-align: center;
+        }
+        .row{
+            margin-top: 20px;
+        }
+        .col{
+            background: orange;
+            margin-top: 10px;
+            padding: 10px;
+        }
+        .remove{
+            border: none;
+        }
+    </style>
+</head>
+<body>
+<pre>
+    khi dùng remove("selector1", "selector2") thì sẽ remove tất cả các thẻ có class selector1 hoặc có class selector2
+</pre>
+<div class="container">
+    <div class="row">
+        <div class="col">Col 1</div>
+        <div class="col">Col 2</div>
+    </div>
+</div>
+
+<div class="container container1">
+    <div class="row">
+        <div class="col">Col 3</div>
+        <div class="col">Col 4</div>
+    </div>
+</div>
+
+<div class="container container1 container2">
+    <div class="row">
+        <div class="col">Col 5</div>
+        <div class="col">Col 6</div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="remove">
+        <button>Remove Content</button>
+    </div>
+</div>
+</body>
+<script src="../jquery.js"></script>
+<script>
+    $(document).ready(function () {
+        $("button").on("click", function () {
+            $(".container").remove(".container1, .container2");
+        });
+    });
+</script>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .container{
+            text-align: center;
+            position: relative;
+        }
+        #demo {
+            padding: 60px;
+            background: pink;
+            width: 150px;
+            margin: 0px auto;
+        }
+        button{
+            margin: 20px;
+            padding: 10px 15px;
+        }
+    </style>
+</head>
+<body>
+    <pre>
+        toggle() là sự kết hợp của show() và hide()
+    </pre>
+        <div class="container">
+            <div id="demo">Đây là Thẻ Div</div>
+            <button class="toggle">Toggle</button>
+        </div>
+
+</body>
+<script src="../../jquery.js"></script>
+<script>
+    $(document).ready(function () {
+       $(".toggle").on("click", function () {
+           $("#demo").toggle(500);
+       })
+    });
+</script>
+</html>

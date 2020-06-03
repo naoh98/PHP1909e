@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        body{
+            background-image: linear-gradient(to bottom, cornsilk, lightskyblue, cornsilk);
+            background-repeat: no-repeat;
+            text-align: center;
+        }
+        h1{
+            padding: 10px;
+            color: goldenrod;
+        }
+        h1:first-child{
+            font-size: 42px;
+            color: #000;
+            background: darkgrey;
+        }
+        .row{
+            padding: 10px 0px;
+            margin-bottom: 20px;
+        }
+        .content1{
+            background: lightgreen;
+        }
+        .content2{
+            background: lightsalmon;
+        }
+        .content2:last-child{
+            background: lightgoldenrodyellow;
+        }
+        .content3{
+            background: orange;
+        }
+        .content3:nth-child(2){
+            background: lightseagreen;
+        }
+        .content3:last-child{
+            background: mediumpurple;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Chia cột bằng .col</h1>
+        <h1>1 Column</h1>
+        <div class="row">
+            <div class="col content1">
+                <h2>Column</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Ad consectetur consequuntur distinctio dolore ea eaque error illum impedit
+                    itaque magnam, maxime mollitia, nemo nulla, quas quasi repellat similique
+                    soluta tempore.</p>
+            </div>
+        </div>
+        <h1>2 Column</h1>
+        <div class="row">
+            <div class="col content2">
+                <h2>Column 1</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Animi at culpa dolorem expedita ipsa nihil perferendis repellat sapiente?
+                    Ab ad alias autem commodi dolores ducimus error illo incidunt labore vel?</p>
+            </div>
+            <div class="col content2">
+                <h2>Column 2</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    A, accusantium aliquam dolorum eveniet, facere ipsam iure minima minus
+                    obcaecati possimus quibusdam sit, tenetur vel. Amet dolor recusandae rem
+                    repellat sit.</p>
+            </div>
+        </div>
+        <h1>3 Column</h1>
+        <div class="row">
+            <div class="col content3">
+                <h2>Column 1</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Animi at culpa dolorem expedita ipsa nihil perferendis repellat sapiente?
+                    Ab ad alias autem commodi dolores ducimus error illo incidunt labore vel?</p>
+            </div>
+            <div class="col content3">
+                <h2>Column 2</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    A, accusantium aliquam dolorum eveniet, facere ipsam iure minima minus
+                    obcaecati possimus quibusdam sit, tenetur vel. Amet dolor recusandae rem
+                    repellat sit.</p>
+            </div>
+            <div class="col content3">
+                <h2>Column 3</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Consectetur dolorum explicabo fugit nobis nostrum. Accusamus corporis
+                    dolor eius fuga fugit inventore maxime. Aut, corporis deleniti dolorum
+                    exercitationem facere non quos.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

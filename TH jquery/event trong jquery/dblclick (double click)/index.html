@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../../jquery.js"></script>
+</head>
+<body>
+    <div class="container">
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Aliquam culpa dolores dolorum ducimus harum magni maiores minima quidem
+            repellat voluptatem. Deserunt esse ipsum iste magni maiores neque quod rerum.
+            Nostrum.</p>
+    </div>
+    <button id="nut">Click đúp để đổi Nội Dung</button>
+</body>
+<script>
+    $(document).ready(function () {
+        $("#nut").on("dblclick", function () {
+           $(".container").html("Nội dung đã thay đổi !!");
+           $(".container").css("color", "red");
+
+        });
+    });
+</script>
+</html>

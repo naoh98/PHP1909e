@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            text-align: center;
+        }
+        .row{
+            margin-top: 20px;
+        }
+        .col{
+            background: orange;
+            margin-top: 10px;
+            padding: 10px;
+        }
+        .remove{
+            border: none;
+        }
+    </style>
+</head>
+<body>
+<pre>
+    toggleClass() là sự kết hợp của addClass và removeClass
+    hoạt động add và remove xen kẽ liên tục
+    khi không có class thì sẽ add class còn khi có class thì sẽ remove class
+</pre>
+<div class="container active">
+    <div class="row">
+        <div class="col">Col 1</div>
+        <div class="col">Col 2</div>
+    </div>
+</div>
+<div class="row">
+    <div class="remove">
+        <button>Toggle class</button>
+    </div>
+</div>
+</body>
+<script src="../jquery.js"></script>
+<script>
+    $(document).ready(function () {
+        $("button").on("click", function () {
+            $(".container").toggleClass("active");
+        });
+    });
+</script>
+</html>

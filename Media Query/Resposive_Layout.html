@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="normalize.css">
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            font-size: 22px;
+            font-weight: bold;
+        }
+        a{text-decoration: none;}
+        #container{
+            border-radius: 15px;
+            border: 1px solid black;
+            overflow: hidden;
+        }
+        #header{
+            text-align: center;
+            padding: 50px 0px;
+            background: linear-gradient(to bottom right, mediumpurple, lightpink);
+        }
+        #menu{
+            background: gold;
+        }
+        #menu ul li{
+            box-sizing: border-box;
+            float: left;
+            width: 25%;
+            text-align: center;
+            background: gold;
+            list-style: none;
+            padding: 10px 0px;
+            border-right: 1px solid black;
+        }
+        #menu ul li:hover{
+            background: #000;
+            border-radius: 7px;
+        }
+        #menu ul li:hover a{
+            color: white;
+        }
+        #content{
+            overflow: auto;
+        }
+        .main_content{
+            float: right;
+            width: 65%;
+            background: #f4ffa0;
+            padding: 100px 0px;
+            height: 200px;
+            text-align: center;
+        }
+        .side_bar{
+            float: left;
+            width: 35%;
+            background: #d1f1ff;
+            padding: 100px 0px;
+            height: 200px;
+            text-align: center;
+        }
+        .clearfix::after{
+            display: block;
+            content: '';
+            clear: both;
+        }
+        #footer{
+            text-align: center;
+            padding: 50px 0px;
+            background: linear-gradient(to bottom right, mediumpurple, lightpink);
+        }
+        @media screen and (max-width: 600px) {
+            .side_bar{
+                width: 100%;
+                float: none;
+            }
+            .main_content{
+                width: 100%;
+                float: none;
+            }
+            #menu ul li{
+                width: 100%;
+                float: none;
+                border: 1px solid black;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="header">
+            Header
+        </div>
+        <nav id="menu" class="clearfix">
+            <ul>
+                <li><a href="#">Trang Chủ</a></li>
+                <li><a href="#">Tin Tức</a></li>
+                <li><a href="#">Sản Phẩm</a></li>
+                <li><a href="#">Liên Hệ</a></li>
+            </ul>
+        </nav>
+        <div id="content" class="clearfix">
+            <div class="side_bar">
+                Side Bar
+            </div>
+            <div class="main_content">
+                Hello World !
+            </div>
+        </div>
+        <div id="footer">
+            Footer
+        </div>
+    </div>
+</body>
+</html>

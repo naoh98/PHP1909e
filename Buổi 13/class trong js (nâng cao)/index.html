@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <pre>
+        JS CLASS : lớp trong JS
+        Khởi tạo lớp bằng từ khóa class
+        Tạo phương thức khởi tạo bằng từ khóa constructor
+        Khởi tạo đối tượng từ lớp bằng từ khóa new
+    </pre>
+</body>
+<script>
+    class Car {
+        /*
+         Method khởi tạo ( constructor ) trong class
+         constructor được tự động gọi khi mà 1 đối tượng
+         được khởi tạo từ class
+         */
+        constructor(brand,price,model){
+            this.brand = brand;
+            this.price = price;
+            this.model = model;
+        }
+    }
+    //
+    var mycar = new Car('Roll-Royce', 50000 + ' USD','Black');
+    console.log(mycar);
+</script>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+
+
+<div class="container">
+
+            <pre>
+                Đăng nhập lấy dữ liệu 2 ô input của form nếu login thành công
+                thì sẽ chuyển hướng trang đến https://www.w3schools.com
+                Nếu thất bại in ra câu thông báo thất bại trong thẻ div #message
+
+            </pre>
+    <div class="row">
+        <form name="login" action="" method="post" onsubmit="loginform(); return false;">
+            <div class="form-group">
+                <label>Username</label>
+                <input type="text" name="username" class="form-control" id="username" >
+
+            </div>
+            <div class="form-group">
+                <label>Mật khẩu</label>
+                <input type="password" name="password" class="form-control" id="password">
+            </div>
+
+            <div id="message" class="form-group"></div>
+
+
+            <input type="submit" name="submit" class="btn btn-primary" value="Đăng nhập">
+
+        </form>
+    </div>
+
+
+</div>
+
+<script type="text/javascript">
+    function User(username, password) {
+        // khai báo các thuộc tính
+        this.username = username;
+        this.password = password;
+        this.checkLogin = function() {
+            if (this.username == "admin" && this.password == "12345678") {
+                return true;
+            }
+            return false;
+        };
+    }
+    function loginform() {
+        // viet chuc nang đang nhập
+        var username1 = document.getElementById('username').value;
+        var password1 = document.getElementById('password').value;
+        user1 = new User(username1, password1);
+        if(user1.checkLogin()){
+            alert('Thành Công');
+            window.location ='https://www.google.com.vn';
+        }
+        else{
+            alert('Thất Bại');
+            document.getElementById('message').innerText='Sai Thông Tin';
+        }
+    }
+</script>
+
+</body>
+</html>

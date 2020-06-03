@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../jquery.js"></script>
+    <style>
+        #demo{
+            width: 200px;
+            height: 200px;
+            background: greenyellow;
+        }
+    </style>
+</head>
+<body>
+    <pre>
+        callback function là 1 hàm thực thi ngay sau khi 1 hiệu hay 1 sự kiện kết thúc
+        *Như VD dưới đây, ta dùng callback function sau sự kiện onclick để phóng to hình vuông
+        và dùng tiếp 1 callback function nữa để thông báo "hoàn thành" khi đã phóng to xong hình vuông
+    </pre>
+    <div id="demo"></div>
+    <button>Click Me</button>
+</body>
+<script>
+    $(document).ready(function () {
+        $("button").on("click", function () {
+            $("#demo").animate({
+                width: "400px",
+                height: "400px"
+            },2000, function () {
+                alert("Hoàn thành phóng to hình vuông.");
+            });
+        });
+    });
+</script>
+</html>

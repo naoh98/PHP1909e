@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<pre>
+        Yêu cầu : tạo 1 class có tên là SinhVien
+        với các thuộc tính : tên , tuổi , quê quán , điểm tổng kết , xếp loại
+        Sau đó khởi tạo đối tượng từ class SinhVien này
+        và console.log() ra đối tượng đó
+
+    </pre>
+</body>
+<script>
+    class Sinhvien
+    {
+        constructor(sname,age,country,point,grade){
+            this.sname = sname;
+            this.age = age;
+            this.country = country;
+            this.point = point;
+            this.grade = grade;
+        }
+    }
+
+    var sinhvien = new Sinhvien('Nguyen Phuong Hoan', 18 + ' tuoi','Nam Dinh',10,'Gioi');
+    console.log(sinhvien);
+</script>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <pre>
+        Để khai báo hàm trong js sử dụng từ khóa function
+        Cú pháp của hàm như sau :
+        function tên_hàm(tham_số_1,tham_số_2 ...) {
+        // Nội dung của hàm
+        }
+        Lệnh return kết thúc hàm và trả về giá trị
+    </pre>
+</body>
+<script>
+    function chuvihinhtron(bankinh) {
+        var chuvi = 2*3.14*bankinh;
+        return chuvi;
+    }
+    function dientichhinhtron(bankinh) {
+        var dientich = bankinh*bankinh*3.14;
+        return dientich;
+    }
+
+    console.log('chu vi hình tròn: ' +chuvihinhtron(5));
+    console.log('diện tích hình tròn: ' +dientichhinhtron(5));
+</script>
+</html>

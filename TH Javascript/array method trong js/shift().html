@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <pre>
+        shift() dùng để xóa phần tử đầu tiên trong mảng
+        shift() trả về phần tử bị xóa
+    </pre>
+</body>
+<script>
+    var fruit = ["apple", "kiwi", "banana", "lemon"];
+    console.log("trước khi dùng shift: " +fruit);
+    console.log(fruit);
+
+    var remove = fruit.shift();
+    console.log("sau khi dùng shift: " +fruit);
+    console.log(fruit);
+
+    var remove1 = fruit.shift();
+    console.log(remove);
+    console.log(remove1);
+</script>
+</html>

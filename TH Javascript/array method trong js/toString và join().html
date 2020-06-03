@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <pre>
+        toString() phân tách 1 mảng thành 1 chuỗi và ngăn cách bởi dấu ,
+        join() cũng phân tách 1 mảng thành 1 chuỗi nhưng được chọn ký tự phân tách , ; : ....
+    </pre>
+    <div id="demo"><h3>Nội dung ban đầu</h3></div>
+    <button onclick="change();">toStirng() Array Method</button>
+    <button onclick="change1();">join() Array Method</button>
+
+</body>
+<script>
+    var students = ["Học Sinh a", "Học Sinh b", "Học Sinh c"];
+    function change(){
+        document.getElementById('demo').innerText = students.toString();
+    }
+    function change1() {
+        document.getElementById('demo').innerText = students.join(" - ");
+    }
+</script>
+</html>
