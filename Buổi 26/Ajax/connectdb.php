@@ -2,7 +2,7 @@
 $mysqlServer ="localhost";
 $mysqlUser = "root";
 $mysqlpassword ="";
-$mysqldatabase="Ajax_test";
+$mysqldatabase="fahasa";
 
 try{
     $connection = new PDO("mysql:host=$mysqlServer;dbname=$mysqldatabase",$mysqlUser,$mysqlpassword);

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../jquery.js"></script>
+</head>
+<body>
+    <div class="container1">
+        <div>
+            <p>Container 1</p>
+        </div>
+    </div>
+    <div class="container1 container2 container4">
+        <div>
+            <p>Container 2</p>
+        </div>
+    </div>
+    <div class="container1 container2 container3">
+        <div>
+            <p>Container 3</p>
+        </div>
+    </div>
+    <button>Click me</button>
+    <script>
+        $(document).ready(function () {
+            $("button").on("click", function () {
+/*               $(".container2").empty();
+               $(".container3").remove();*/
+               $(".container1").remove(".container4, .container3");
+            });
+        });
+    </script>
+</body>
+</html>

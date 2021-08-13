@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../jquery.js"></script>
+</head>
+<body>
+    <div class="container">
+        <a href="https://www.google.com" class="base" target="_blank">GG</a>
+        <button>Click me</button>
+        <a href="" class="target" target="_blank">Target</a>
+    </div>
+    <script>
+        $(document).ready(function () {
+            $("button").on("click", function () {
+               var copy = $(".base").attr("href");
+               $(".target").attr("href",copy);
+               $(".target").attr("r",3);
+            });
+
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width: 900px;
+    min-height: 400px;
+    margin: 0px auto;
+}
+.big-image{
+    width: 600px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 0px auto;
+    position: relative;
+}
+.big-image img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+}
+.big-image img:not(:first-child){
+    display: none;
+}
+.imgs{
+    width: fit-content;
+    height: 60px;
+    margin: 20px auto 0px;
+}
+.imgs img{
+    width: 150px;
+    height: 100%;
+    float: left;
+    margin: 0px 10px;
+}
+.prev{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0,-50%);
+    z-index: 10;
+}
+.next{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(0,-50%);
+    z-index: 10;
+}
+button{
+    padding: 2px 5px;
+}

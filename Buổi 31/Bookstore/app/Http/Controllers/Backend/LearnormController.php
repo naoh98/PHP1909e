@@ -16,19 +16,15 @@ class LearnormController extends Controller
     }
 
     public function demo1(){
-        $book1 = BooksModel::find(4);
-        $author = $book1->author;
+        $book1 = BooksModel::find(4)->author;
 
         dump($book1);
-        dump($author);
     }
 
     public function demo2(){
-        $user = User::find(2);
-        $book2 = $user->book;
+        $user = User::find(1)->book;
 
         dump($user);
-        dump($book2);
     }
 
     public function demo3(){
@@ -49,11 +45,9 @@ class LearnormController extends Controller
     }
 
     public function demo5(){
-        $user = User::find(1);
-        $role = $user->roles;
+        $user = User::find(1)->roles;
 
         dump($user);
-        dump($role);
     }
 
     public function demo6(){

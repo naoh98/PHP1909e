@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../jquery.js"></script>
+    <style>
+        #container{
+            min-height: 80px;
+            width: 900px;
+            margin: 0px auto;
+            border: 3px dotted black;
+        }
+        #wrapper{
+            border: 1px double green;
+        }
+        .base{
+            width: 80px;
+            height: 80px;
+            background: red;
+            border: 1px solid blue;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="wrapper">
+            <div class="base">Base</div>
+        </div>
+        <button class="append">Append</button>
+        <button class="after">After</button>
+        <button class="prepend">Prepend</button>
+        <button class="before">Before</button>
+    </div>
+
+    <script>
+        $(document).ready(function () {
+            $(".append").on("click", function () {
+                $("#wrapper").append("<div class='base'>Append block</div>");
+            });
+            $(".after").on("click", function () {
+                $("#wrapper").after("<div class='base'>After block</div>");
+            });
+            $(".prepend").on("click", function () {
+                $("#wrapper").prepend("<div class='base'>Prepend block</div>");
+            });
+            $(".before").on("click", function () {
+                $("#wrapper").before("<div class='base'>Before block</div>");
+            });
+        });
+    </script>
+</body>
+</html>

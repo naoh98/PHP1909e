@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ul li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+nav{
+    width: 1200px;
+    margin: 0px auto;
+    border: 1px solid;
+}
+ul{
+    background: lightskyblue;
+}
+.menu{
+    display: flex;
+    width: 100%;
+}
+.menu>li{
+    flex-grow: 1;
+}
+.menu li{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    padding: 10px 0px;
+    border: 1px solid;
+}
+.menu>li ul{
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    display: none;
+}
+.menu>li>ul{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    display: none;
+}
+.menu li:hover >ul{
+    display: block;
+}

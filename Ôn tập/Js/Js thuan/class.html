@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    class ConNguoi{
+        constructor(tt1,tt2,tt3){
+            this.name=tt1;
+            this.age=tt2;
+            this.sex=tt3;
+        }
+        //
+        allow(){
+            if (this.name<18){
+                console.log("ban chua du 18 tuoi");
+            } else{
+                console.log("ban da truong thanh");
+            }
+        }
+        //
+        info(){
+            console.log("Sinh vien: "+this.name+", "+this.age+" tuoi, "+"gioi tinh "+this.sex);
+        }
+    }
+    var human = new ConNguoi("HOAN",23,"NAM");
+    human.allow();
+    human.info();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div id="demo"></div>
+    <button onclick="clearInterval(x)">Huy</button>
+    <script>
+        var x = setInterval(function () {
+            var d = new Date();
+            document.getElementById("demo").innerText+="\n"+d;
+        },2000);
+    </script>
+</body>
+</html>

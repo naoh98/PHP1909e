@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div id="demo"></div>
+    <script>
+        class ConNguoi{
+            constructor(name,age){
+                this.name=name;
+                this.age=age;
+            }
+
+            agereq(){
+                if (this.age<18){
+                    return false;
+                } else{
+                    return true;
+                }
+            }
+        }
+        class SinhVien extends ConNguoi{
+            constructor(name,age,toan,van){
+                super(name,age);
+                this.toan=toan;
+                this.van=van;
+            }
+            tongket(){
+                this.dtb=(this.toan+this.van)/2;
+            }
+            tb(){
+                if(this.agereq()){
+                    return "Sinh vien: "+this.name+", "+"tuoi: "+this.age+", "+"Diem: "+this.dtb+" => ban da du tuoi";
+                }else{
+                    return "Sinh vien: "+this.name+", "+"tuoi: "+this.age+", "+"Diem: "+this.dtb+" => ban chua du tuoi";
+                }
+            }
+        }
+        var sv1 = new SinhVien("Hoan",3,8,5);
+        sv1.tongket();
+        document.getElementById("demo").innerText=sv1.tb();
+    </script>
+</body>
+</html>

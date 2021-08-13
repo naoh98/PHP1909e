@@ -17,12 +17,14 @@ $data = $stmt->fetchAll();
 ?>
 <div class="container">
     <h2>Basic Ajax</h2>
+    <a href="insert.php">Insert</a>
     <table class="table">
         <thead>
         <tr>
             <th>ID</th>
             <th>Title</th>
             <th>Intro</th>
+            <th colspan="2">action</th>
         </tr>
         </thead>
         <tbody>
@@ -32,6 +34,8 @@ $data = $stmt->fetchAll();
                 <td><?php echo $item["id"]; ?></td>
                 <td><?php echo $item["title"]; ?></td>
                 <td><?php echo $item["intro"]; ?></td>
+                <td><a href='<?php echo 'update.php?action=update&id='.$item["id"]; ?>'>update</a></td>
+                <td><a href='<?php echo 'delete.php?action=delete&id='.$item["id"]; ?>'>delete</a></td>
             </tr>
          <?php } ?>
         </tbody>

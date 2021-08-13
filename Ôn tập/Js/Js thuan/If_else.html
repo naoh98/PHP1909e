@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+
+            <pre>
+                Sử dụng công thức tại trang https://news.zing.vn/5-cong-thuc-don-gian-do-chi-so-bmi-post669580.html
+                để tính toán ra chỉ số BMI khi nhập vào
+                và in ra thông tin phân loại
+                và nguy cơ bệnh tật
+            </pre>
+        <form name="bmi" action="" method="post" onsubmit="return false;">
+            <div class="form-group">
+                <label>Cân nặng ( Kg )</label>
+                <input type="text" name="weight" class="form-control" id="weight" placeholder="Cân nặng">
+
+            </div>
+            <div class="form-group">
+                <label>Chiều cao ( đơn vị mét )</label>
+                <input type="text" name="height" class="form-control" id="height" placeholder="Chiều cao">
+            </div>
+
+            <button class="btn btn-primary" onclick="tinhbmi();">tính MBI</button>
+        </form>
+    </div>
+
+    <div class="row">
+        <h2>Kết quả sau tính toán</h2>
+
+
+    </div>
+
+    <div class="row">
+        <p id="bmi">BMI : </p>
+        <p id="pl">Phân loại : </p>
+        <p id="benh">Nguy cơ bênh tật : </p>
+    </div>
+</div>
+
+<script type="text/javascript">
+    function tinhbmi(){
+        var cannang = parseFloat(document.getElementById("weight").value);
+        var chieucao = parseFloat(document.getElementById("height").value);
+        var bmi =cannang/(chieucao*chieucao);
+        console.log(bmi);
+        if(bmi<18.5){
+            document.getElementById("bmi").innerText="BMI: "+bmi;
+            document.getElementById("pl").innerText="Phan Loai: gay";
+            document.getElementById("benh").innerText="Nguy co benh tat: thap";
+        }else if (bmi>=18.5 && bmi<24.9){
+            document.getElementById("bmi").innerText="BMI: "+bmi;
+            document.getElementById("pl").innerText="Phan Loai: binh thuong";
+            document.getElementById("benh").innerText="Nguy co benh tat: trung binh";
+        }else if (bmi>=25 && bmi<29.9){
+            document.getElementById("bmi").innerText="BMI: "+bmi;
+            document.getElementById("pl").innerText="Phan Loai: hoi beo";
+            document.getElementById("benh").innerText="Nguy co benh tat: cao";
+        }else if (bmi>=30 && bmi<34.9){
+            document.getElementById("bmi").innerText="BMI: "+bmi;
+            document.getElementById("pl").innerText="Phan Loai: beo phi cap 1";
+            document.getElementById("benh").innerText="Nguy co benh tat: cao";
+        }else if (bmi>=35 && bmi<39.9){
+            document.getElementById("bmi").innerText="BMI: "+bmi;
+            document.getElementById("pl").innerText="Phan Loai: beo phi cap 2";
+            document.getElementById("benh").innerText="Nguy co benh tat: rat cao";
+        }else if (bmi>=40){
+            document.getElementById("bmi").innerText="BMI: "+bmi;
+            document.getElementById("pl").innerText="Phan Loai: beo phi cap 3";
+            document.getElementById("benh").innerText="Nguy co benh tat: nguy hiem";
+        }
+    }
+</script>
+
+</body>
+</html>

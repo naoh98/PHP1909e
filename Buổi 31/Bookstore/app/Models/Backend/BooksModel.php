@@ -14,7 +14,7 @@ class BooksModel extends Model
     }
 
     public function comment(){
-        return $this->hasMany('App\Comment','book_id','id');
-    }
+    return $this->hasMany('App\Comment','book_id','id');
+}
 
 }

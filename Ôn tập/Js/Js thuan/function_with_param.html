@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .container{
+            width: 900px;
+            margin: 0px auto;
+            min-height: 400px;
+        }
+        #hv{
+            height:80px;
+            width: 80px;
+            border: 1px solid black;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="hv"></div>
+        <div>
+            <button onclick="clickme('yellow')">Yellow</button>
+            <button onclick="clickme('red')">Red</button>
+            <button onclick="clickme('green')">Green</button>
+        </div>
+    </div>
+
+    <script>
+        function clickme(color){
+            if(color === "yellow"){
+                document.getElementById("hv").style.background = "yellow";
+            }else if(color === "red"){
+                document.getElementById("hv").style.background = "red";
+            }else if(color === "green"){
+                document.getElementById("hv").style.background = "green";
+            }
+        }
+    </script>
+</body>
+</html>

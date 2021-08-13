@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../jquery.js"></script>
+    <style>
+        .container{
+            width: 900px;
+            border: 1px solid black;
+            margin: 0px auto;
+        }
+        .demo{
+            width: 100px;
+            height: 100px;
+            background: red;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="demo"></div>
+        <button class="btn">Click me</button>
+    </div>
+    <script>
+        $(document).ready(function () {
+            $(".btn").on("click", function () {
+                $(".demo").show(500, function () {
+                    alert("end");
+                });
+            });
+
+            //an/hien 10 lan
+/*            var count = 0;
+            $(".btn").on("click", function () {
+               var x = setInterval( function () {
+                   $(".demo").toggle(500);
+                   count++;
+                   if (count>10){
+                       alert("end");
+                       clearInterval(x);
+                       count=0;
+                   }
+               }, 1000);
+            });*/
+        });
+    </script>
+</body>
+</html>

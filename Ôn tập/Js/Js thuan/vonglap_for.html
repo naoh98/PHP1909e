@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <pre>
+        Sử dụng vòng lặp for để in ra tong các sô chẵn từ ?? cho đến ??
+        => gợi ý toán tử chia lấy dự : % , toán tử so sánh bằng sẽ là ==
+    </pre>
+    <div class="container">
+        <h1>Hien thi cac so chan tu ?? den ??</h1>
+        <form method="post" onsubmit="return false;">
+            <div>
+                <label>So dau:</label>
+                <input type="text" id="a" name="soa">
+            </div>
+            <div>
+                <label>So cuoi:</label>
+                <input type="text" id="b" name="sob">
+            </div>
+            <div>
+                <button onclick="cal();">Hien thi</button>
+            </div>
+        </form>
+        <div>
+            <label>Day so la:</label><span id="kq"></span>
+        </div>
+    </div>
+</body>
+<script type="text/javascript">
+    function cal(){
+        var a = parseInt(document.getElementById("a").value);
+        var b = parseInt(document.getElementById("b").value);
+        for (var i=a;i<=b;i++){
+            if(i%2==0){
+                document.getElementById("kq").innerText+=" "+i;
+            }
+        }
+    }
+</script>
+</html>

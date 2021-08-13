@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../jquery.js"></script>
+</head>
+<body>
+    <div class="demo">
+        <p>Hello</p>
+    </div>
+    <a href="#" class="a">Click</a>
+    <script>
+        $(document).ready(function () {
+            $(".a").on("click", function (e) {
+                e.preventDefault();
+                var txt = $(".demo").html();
+                // var txt = $(".demo").text();
+                alert(txt);
+            });
+        });
+    </script>
+</body>
+</html>

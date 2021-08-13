@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var student = {
+        name: "",
+        age: "",
+        point: "",
+        hocluc: "",
+        danhgia: function () {
+           if (this.point>=8){
+               this.hocluc="gioi";
+               console.log("Sinh vien "+this.name+", "+this.age+" tuoi, co diem tb: "+this.point+", hoc luc: "+this.hocluc);
+           }else{
+               this.hocluc="trung binh";
+               console.log("Sinh vien "+this.name+", "+this.age+" tuoi, co diem tb: "+this.point+", hoc luc: "+this.hocluc);
+           }
+        }
+    };
+    student.name="Hoan";
+    student.age=23;
+    student.point=3;
+    student.danhgia();
+    for(let key in student){
+        console.log(`Key ${key} co gia tri la ${student[key]}`)
+    }
+</script>
+</body>
+</html>
